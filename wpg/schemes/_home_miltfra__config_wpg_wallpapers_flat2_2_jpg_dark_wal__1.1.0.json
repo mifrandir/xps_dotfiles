@@ -1,0 +1,28 @@
+{
+    "wallpaper": "flat2.2.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#120f1c",
+        "foreground": "#ffdbc7",
+        "cursor": "#ffdbc7"
+    },
+    "colors": {
+        "color0": "#120f1c",
+        "color1": "#6E3245",
+        "color2": "#453E62",
+        "color3": "#6B4459",
+        "color4": "#3A416F",
+        "color5": "#6F4C6B",
+        "color6": "#50456C",
+        "color7": "#d6a596",
+        "color8": "#221c36",
+        "color9": "#993655",
+        "color10": "#534689",
+        "color11": "#964d74",
+        "color12": "#404c9b",
+        "color13": "#9c5694",
+        "color14": "#624e97",
+        "color15": "#ffdbc7"
+    }
+}

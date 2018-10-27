@@ -1,0 +1,28 @@
+{
+    "wallpaper": "fnatic1.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0C0312",
+        "foreground": "#e2fdff",
+        "cursor": "#e2fdff"
+    },
+    "colors": {
+        "color0": "#0C0312",
+        "color1": "#59586B",
+        "color2": "#364D69",
+        "color3": "#908773",
+        "color4": "#395B88",
+        "color5": "#8B7391",
+        "color6": "#5D688D",
+        "color7": "#abbfc5",
+        "color8": "#230735",
+        "color9": "#686597",
+        "color10": "#3b6392",
+        "color11": "#cbb584",
+        "color12": "#3d74bd",
+        "color13": "#be84cd",
+        "color14": "#697ec6",
+        "color15": "#e2fdff"
+    }
+}

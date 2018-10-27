@@ -1,0 +1,28 @@
+{
+    "wallpaper": "lp5.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#154532",
+        "foreground": "#ffffe1",
+        "cursor": "#ffffe1"
+    },
+    "colors": {
+        "color0": "#154532",
+        "color1": "#807d47",
+        "color2": "#6f7848",
+        "color3": "#6b7656",
+        "color4": "#134d81",
+        "color5": "#0a4d71",
+        "color6": "#216581",
+        "color7": "#c1c0a9",
+        "color8": "#1e6348",
+        "color9": "#b3ae4f",
+        "color10": "#98a851",
+        "color11": "#8fa662",
+        "color12": "#0e64b1",
+        "color13": "#04669b",
+        "color14": "#2087b2",
+        "color15": "#ffffe1"
+    }
+}

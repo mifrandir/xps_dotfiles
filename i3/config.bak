@@ -1,0 +1,197 @@
+font pango:Input Mono 11
+### VARIABLES ###
+# Mod Key
+set $mod Mod4
+set $terminal termite 
+set $wallpaper bg.jpg
+
+# VIM directions
+set $up k
+set $down j
+set $left h
+set $right l
+
+set $upp i
+set $downn u
+set $leftt y
+set $rightt o
+
+#MONITORS
+set $rmonitor HDMI-0
+set $lmonitor DVI-0
+
+# Workspaces
+set $workspace1 "1:web"
+set $workspace2 "2:shell"
+set $workspace3 "3:code"
+set $workspace4 "4:tools"
+set $workspace6 "6:other"
+set $workspace5 "5:other"
+set $workspace7 "7:other"
+set $workspace8 "8:other"
+set $workspace9 "9:other"
+set $workspace10 "10:other"
+
+# Modes
+set $modepower ""
+
+## KEYBINDINGS
+
+# Numbers
+bindsym $mod+1                                  workspace $workspace1
+bindsym $mod+Shift+1                            move container to workspace $workspace1
+bindsym $mod+2                                  workspace $workspace2
+bindsym $mod+Shift+2                            move container to workspace $workspace2
+bindsym $mod+3                                  workspace $workspace3
+bindsym $mod+Shift+3                            move container to workspace $workspace3
+bindsym $mod+4                                  workspace $workspace4
+bindsym $mod+Shift+4                            move container to workspace $workspace4
+bindsym $mod+5                                  workspace $workspace5
+bindsym $mod+Shift+5                            move container to workspace $workspace5
+bindsym $mod+6                                  workspace $workspace6
+bindsym $mod+Shift+6                            move container to workspace $workspace6
+bindsym $mod+7                                  workspace $workspace7
+bindsym $mod+Shift+7                            move container to workspace $workspace7
+bindsym $mod+8                                  workspace $workspace8
+bindsym $mod+Shift+8                            move container to workspace $workspace8
+bindsym $mod+9                                  workspace $workspace9
+bindsym $mod+Shift+9                            move container to workspace $workspace9
+bindsym $mod+0                                  workspace $workspace10
+bindsym $mod+Shift+0                            move container to workspace $workspace10
+        
+
+# Letters
+bindsym $mod+a                                  move workspace to output left
+#bindsym $mod+Shift+a
+#bindsym $mod+b
+#bindsym $mod+Shift+b
+#bindsym $mod+c
+bindsym $mod+Shift+c                            reload
+bindsym $mod+d                                  exec rofi -show run -show-icons -drun-icon-theme Papere -auto-select
+bindsym $mod+Shift+d                            exec code
+bindsym $mod+e                                  layout toggle split
+#bindsym $mod+Shift+e                            
+bindsym $mod+f                                  fullscreen toggle
+bindsym $mod+Shift+f                            exec firefox                                  
+#bindsym $mod+g
+#bindsym $mod+Shift+g
+#bindsym $mod+h
+#bindsym $mod+Shift+h                                  
+bindsym $mod+m                                  split h 
+#bindsym $mod+Shift+m
+bindsym $mod+n                                  split v
+#bindsym $mod+Shift+n
+bindsym $mod+q                                  kill
+#bindsym $mod+Shift+q
+#bindsym $mod+r
+bindsym $mod+Shift+r                            restart
+bindsym $mod+s                                  move workspace to output right
+bindsym $mod+Shift+s                            exec gnome-screenshot
+#bindsym $mod+t
+#bindsym $mod+Shift+t
+#bindsym $mod+Shift+v                                  
+bindsym $mod+w                                  layout tabbed
+#bindsym $mod+Shift+w                                  
+#bindsym $mod+x
+#bindsym $mod+Shift+x
+#bindsym $mod+y
+#bindsym $mod+Shift+y
+#bindsym $mod+z                                 
+#bindsym $mod+Shift+z
+
+
+# Other
+bindsym $mod+Return                             exec $terminal
+bindsym $mod+Shift+Return                       exec $terminal -e ranger
+bindsym $mod+$left                              focus left
+bindsym $mod+Shift+$left                        move left
+bindsym $mod+$down                              focus down
+bindsym $mod+Shift+$down                        move down
+bindsym $mod+$up                                focus up
+bindsym $mod+Shift+$up                          move up
+bindsym $mod+$right                             focus right
+bindsym $mod+Shift+$right                       move right
+
+bindsym $mod+$leftt                             resize shrink width 10 px
+bindsym $mod+Shift+$leftt                       resize shrink width 20 px
+bindsym $mod+$rightt                            resize grow width 10 px
+bindsym $mod+Shift+$rightt                      resize grow width 20 px
+bindsym $mod+$upp                               resize grow height 10 px
+bindsym $mod+Shift+$upp                         resize grow height 20 px
+bindsym $mod+$downn                             resize shrink height 10 px
+bindsym $mod+Shift+$downn                       resize shrink height 20 px
+
+bindsym $mod+space                              focus mode_toggle
+bindsym $mod+Shift+space                        floating toggle
+bindsym $mod+minus                              scratchpad show
+bindsym $mod+Shift+minus                        move scratchpad
+
+bindsym $mod+Escape                             mode $modepower
+
+bindsym XF86AudioRaiseVolume                    exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
+bindsym XF86AudioLowerVolume                    exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
+bindsym XF86AudioMute                           exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+
+bindsym XF86MonBrightnessUp                     exec xbacklight -inc 20 # increase screen brightness
+bindsym XF86MonBrightnessDown                   exec xbacklight -dec 20 # decrease screen brightness
+bindsym XF86TouchpadToggle                      exec ~/.i3/toggletouchpad.sh # toggle touchpad
+bindsym XF86AudioPlay                           exec playerctl play
+bindsym XF86AudioPause                          exec playerctl pause
+bindsym XF86AudioNext                           exec playerctl next
+bindsym XF86AudioPrev                           exec playerctl previous
+
+bindsym $mod+Tab workspace next
+bindsym $mod+Shift+Tab workspace prev
+
+mode $modepower {
+        bindsym j mode "default",               exec --no-startup-id betterlockscreen -l dimblur 
+        bindsym k mode "default",               exit
+        bindsym l mode "default",               exec --no-startup-id shutdown now
+        bindsym semicolon mode "default",       exec --no-startup-id reboot
+
+        bindsym Escape mode "default"
+        bindsym Return mode "default"
+}
+default_border pixel 2
+set_from_resource $fg i3wm.color7 #f0f0f0
+set_from_resource $bg i3wm.color1 #f0f0f0
+set_from_resource $b2 i3wm.color0 #f0f0f0
+
+# class                 border  backgr. text indicator child_border
+client.focused          $bg     $bg     $fg  $bg       $bg
+client.focused_inactive $b2     $b2     $fg  $bg       $b2
+client.unfocused        $b2     $b2     $fg  $bg       $b2
+client.urgent           $b2     $b2     $fg  $bg       $b2
+client.placeholder      $b2     $b2     $fg  $bg       $b2
+
+client.background       $b2
+
+### GAPS ###
+gaps inner 0
+gaps outer 0
+floating_modifier $mod
+hide_edge_borders smart
+### WORKSPACE SETTINGS ###
+
+for_window [class="Firefox"]                    move to workspace $workspace1
+assign [class="Code"]                           workspace $workspace3
+assign [class="Thunderbird"]                    workspace $workspace4
+for_window [class="Spotify"]                    move to workspace $workspace4    
+assign [class="^.*"]                            workspace $workspace5
+for_window [class="^.*"]                    border pixel 2
+focus_follows_mouse no
+### ASSIGNS
+workspace $workspace1 output $lmonitor
+workspace $workspace2 output $lmonitor
+workspace $workspace3 output $rmonitor
+workspace $workspace4 output $rmonitor
+workspace $workspace5 output $rmonitor
+workspace $workspace6 output $rmonitor
+workspace $workspace7 output $rmonitor
+workspace $workspace8 output $rmonitor
+workspace $workspace9 output $rmonitor
+workspace $workspace10 output $rmonitor
+
+### STARTUP ###
+exec bash ~/.config/i3/startup.sh
+exec_always bash ~/.config/i3/always.sh

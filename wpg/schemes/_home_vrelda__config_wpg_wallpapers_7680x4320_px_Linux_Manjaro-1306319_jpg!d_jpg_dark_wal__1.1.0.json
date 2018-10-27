@@ -1,0 +1,28 @@
+{
+    "wallpaper": "7680x4320_px_Linux_Manjaro-1306319.jpg!d.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#1e1d1c",
+        "foreground": "#cfd9d1",
+        "cursor": "#cfd9d1"
+    },
+    "colors": {
+        "color0": "#1e1d1c",
+        "color1": "#35C15D",
+        "color2": "#38C461",
+        "color3": "#51C472",
+        "color4": "#60C77D",
+        "color5": "#6CCA88",
+        "color6": "#99DBAD",
+        "color7": "#cfd9d1",
+        "color8": "#909792",
+        "color9": "#35C15D",
+        "color10": "#38C461",
+        "color11": "#51C472",
+        "color12": "#60C77D",
+        "color13": "#6CCA88",
+        "color14": "#99DBAD",
+        "color15": "#cfd9d1"
+    }
+}

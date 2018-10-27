@@ -1,0 +1,66 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "lucy",
+    "material-icon-theme.showWelcomeMessage": false,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 16,
+    "latex-workshop.latex.tools": [
+        {
+            "name": "lualatex",
+            "command": "lualatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ]
+        }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "lualatex",
+            "tools": [
+                "lualatex"
+            ]
+        },
+        {
+            "name": "pdflatex -> bibtex -> pdflatex*2",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        }
+    ],
+    "editor.minimap.enabled": false,
+    "explorer.openEditors.visible": 0,
+    "latex-workshop.message.update.show": false,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "explorer.confirmDelete": false,    
+    "explorer.confirmDragAndDrop": false,
+    "editor.fontLigatures": true,
+    "color-highlight.markerType": "outline",
+    "workbench.sideBar.location": "left",
+    "terminal.integrated.rendererType": "dom",
+    "wal.autoReload": true,
+    "wal.tokenColorTheme": "lucy"
+}

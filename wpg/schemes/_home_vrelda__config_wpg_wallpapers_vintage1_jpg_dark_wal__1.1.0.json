@@ -1,0 +1,28 @@
+{
+    "wallpaper": "vintage1.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#03091D",
+        "foreground": "#ffffde",
+        "cursor": "#ffffde"
+    },
+    "colors": {
+        "color0": "#03091D",
+        "color1": "#BB4B38",
+        "color2": "#469661",
+        "color3": "#9F6356",
+        "color4": "#1D3153",
+        "color5": "#5A5F60",
+        "color6": "#245563",
+        "color7": "#d2c6a9",
+        "color8": "#051342",
+        "color9": "#ff5638",
+        "color10": "#4cd179",
+        "color11": "#de765f",
+        "color12": "#1e3d73",
+        "color13": "#698388",
+        "color14": "#257389",
+        "color15": "#ffffde"
+    }
+}

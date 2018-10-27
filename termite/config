@@ -1,0 +1,53 @@
+[options]
+audible_bell=false
+clickable_url=true
+cursor_blink=system
+cursor_shape=block
+dynamic_title=true
+mouse_autohide=true
+scrollback_lines=50000
+search_wrap=true
+visible_bell=false
+font=Input Mono 12
+browser=Firefox
+[colors]
+# Base16 Seti UI
+# Author: 
+
+foreground          = #d6d6d6
+foreground_bold     = #eeeeee
+cursor              = #eeeeee
+cursor_foreground   = #151718
+background          = rgba(21, 23, 24, 0.3)
+
+# 16 color space
+
+# Black, Gray, Silver, White
+color0  = #10151e
+color8  = #1d2738
+color7  = #c7cac8
+color15 = #fdfffe
+
+# Red
+color1  = #A68E68
+color9  = #e9bc75
+
+# Green
+color2  = #758373
+color10 = #8cba85
+
+# Yellow
+color3  = #C7AF52
+color11 = #ffee58
+
+# Blue
+color4  = #4E738D
+color12 = #5797c5
+
+# Purple
+color5  = #D1A66A
+color13 = #ffdb75
+
+# Teal
+color6  = #6D8C9B
+color14 = #7cbbda

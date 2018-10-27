@@ -1,0 +1,28 @@
+{
+    "wallpaper": "up5.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0d1412",
+        "foreground": "#eef6e8",
+        "cursor": "#eef6e8"
+    },
+    "colors": {
+        "color0": "#0d1412",
+        "color1": "#A84034",
+        "color2": "#364C49",
+        "color3": "#8F7164",
+        "color4": "#4E5449",
+        "color5": "#6D6C54",
+        "color6": "#65685B",
+        "color7": "#b3b9ae",
+        "color8": "#1c2c27",
+        "color9": "#e84735",
+        "color10": "#3d6b65",
+        "color11": "#c98c72",
+        "color12": "#647754",
+        "color13": "#9a9760",
+        "color14": "#8a9369",
+        "color15": "#eef6e8"
+    }
+}

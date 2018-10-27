@@ -1,0 +1,28 @@
+{
+    "wallpaper": "kvacm1.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#041622",
+        "foreground": "#d9feff",
+        "cursor": "#d9feff"
+    },
+    "colors": {
+        "color0": "#041622",
+        "color1": "#4c787d",
+        "color2": "#37787f",
+        "color3": "#165b7b",
+        "color4": "#207192",
+        "color5": "#2a687c",
+        "color6": "#297e9a",
+        "color7": "#a3bec1",
+        "color8": "#072d46",
+        "color9": "#55a6af",
+        "color10": "#3ba5b0",
+        "color11": "#1379a9",
+        "color12": "#1d97c9",
+        "color13": "#2b8cac",
+        "color14": "#28aad4",
+        "color15": "#d9feff"
+    }
+}

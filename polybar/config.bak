@@ -1,0 +1,168 @@
+[bar/default]
+width = 100%
+offset-x = 5%
+override-redirect = false
+height = 26
+radius = 0
+fixed-center = true
+bottom = false
+margin = 5
+monitor = HDMI-0
+offset-y = 5%
+
+background = #dd03091D
+foreground = #ffffde
+
+line-size = 3
+
+border-size = 0
+border-color = #dd03091D
+
+padding-left = 0
+padding-right = 0
+
+module-margin-left = 0
+module-margin-right = 0
+module-padding-left = 1
+module-padding-right = 1
+
+
+font-0 = Input Mono:style=Bold:pixelsize=12;3
+font-1 = Font Awesome 5 Free:pixelsize=12;3
+font-2 = Font Awesome 5 Free:style=Solid:pixelsize=12;3
+font-3 = Font Awesome 5 Brands:pixelsize=12;3
+
+modules-left = date xwindow 
+modules-center = i3 
+modules-right = xkeyboard pacman aur wlan eth
+
+tray-position =
+tray-padding = 1
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+[module/pacman]
+type = custom/script
+exec = ~/.config/polybar/updates-arch.sh
+interval = 600
+format-foreground = #257389
+label-padding = 1
+
+[module/aur]
+type = custom/script
+exec = ~/.config/polybar/updates-arch-aur.sh
+interval = 600
+format-foreground = #245563
+label-padding = 1
+
+[module/xwindow]
+type = internal/xwindow
+label = %title:0:50:...%
+label-padding = 1
+format-foreground = #de765f
+
+[module/xkeyboard]
+type = internal/xkeyboard
+blacklist-0 = num lock
+
+format-foreground = #5A5F60
+
+label-layout =   %layout%
+label-layout-padding = 1
+
+[module/i3]
+type = internal/i3
+
+pin-workspaces = false
+strip-wsnumbers = true
+index-sort = true
+enable-click = false
+enable-scroll = false
+wrapping-scroll = false
+reverse-scroll = false
+fuzzy-match = true
+
+ws-icon-0=1:web;
+ws-icon-1=2:shell;
+ws-icon-2=3:tools;
+ws-icon-3=4:code;
+ws-icon-default=
+
+
+format-focused = <label-focused>
+label-focused = %name%
+label-focused-padding = 1
+label-focused-margin = 0
+label-focused-foreground = #ffffde
+
+format-unfocused = <label-unfocused>
+label-unfocused = %name%
+label-unfocused-padding = 1
+label-unfocused-margin = 0
+label-unfocused-foreground = #469661
+
+label-mode-padding = 0
+label-mode-margin = 0
+label-mode-foreground = #ffffde
+label-mode = %mode%
+
+format-urgent = <label-urgent>
+label-urgent = %name%
+label-urgent-padding = 1
+label-urgent-margin = 0
+label-urgent-foreground = #BB4B38
+
+format-visible = <label-visible>
+label-visible = %name%
+label-visible-padding = 1
+label-visible-margin = 0
+label-visible-foreground = #d2c6a9
+
+[module/wlan]
+type = internal/network
+interface = wlp3s0
+interval = 1.0
+label-connected =  %essid% %local_ip%
+format-connected-padding = 1
+
+format-disconnected =  --
+format-connected-foreground = #1e3d73
+format-disconnected-foreground = #1D3153
+format-disconnected-padding = 1
+
+[module/eth]
+type = internal/network
+interface = eno1
+interval = 1.0
+label-connected =  %local_ip%
+format-connected-padding = 1
+
+format-disconnected =  --
+format-connected-foreground = #de765f
+format-disconnected-foreground = #9F6356
+format-disconnected-padding = 1
+
+[module/date]
+type = internal/date
+interval = 1
+format-foreground = #d2c6a9
+date =" %m/%d"
+date-alt = " %Y/%m/%d"
+
+time = %H:%M
+time-alt = %H:%M:%S
+
+label = %date% %time%
+label-padding = 1
+
+[settings]
+screenchange-reload = true
+;compositing-background = xor
+;compositing-background = screen
+;compositing-foreground = source
+;compositing-border = over
+
+[global/wm]
+margin-top = 5
+margin-bottom = 5

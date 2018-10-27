@@ -1,0 +1,28 @@
+{
+    "wallpaper": "clr1.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0a0701",
+        "foreground": "#ffffd0",
+        "cursor": "#ffffd0"
+    },
+    "colors": {
+        "color0": "#0a0701",
+        "color1": "#877627",
+        "color2": "#62734D",
+        "color3": "#98995E",
+        "color4": "#645823",
+        "color5": "#7F8039",
+        "color6": "#76895D",
+        "color7": "#d0cb9d",
+        "color8": "#160f01",
+        "color9": "#baa027",
+        "color10": "#80a157",
+        "color11": "#d5d66a",
+        "color12": "#8a7724",
+        "color13": "#b0b23e",
+        "color14": "#9bc169",
+        "color15": "#ffffd0"
+    }
+}

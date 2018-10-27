@@ -1,0 +1,28 @@
+{
+    "wallpaper": "up6.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#173b49",
+        "foreground": "#ffffff",
+        "cursor": "#ffffff"
+    },
+    "colors": {
+        "color0": "#173b49",
+        "color1": "#bf6c4e",
+        "color2": "#6d6d6d",
+        "color3": "#e0b658",
+        "color4": "#e2a67f",
+        "color5": "#bc9a86",
+        "color6": "#a8806b",
+        "color7": "#c6c6c6",
+        "color8": "#205367",
+        "color9": "#ff8453",
+        "color10": "#9b7f7f",
+        "color11": "#fff45e",
+        "color12": "#ffd28e",
+        "color13": "#ffc299",
+        "color14": "#eca079",
+        "color15": "#ffffff"
+    }
+}

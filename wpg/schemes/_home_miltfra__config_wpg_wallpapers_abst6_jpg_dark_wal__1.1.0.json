@@ -1,0 +1,28 @@
+{
+    "wallpaper": "abst6.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#161f28",
+        "foreground": "#f1ffff",
+        "cursor": "#f1ffff"
+    },
+    "colors": {
+        "color0": "#161f28",
+        "color1": "#8EB0B2",
+        "color2": "#79A5AA",
+        "color3": "#A2C5BB",
+        "color4": "#769BA3",
+        "color5": "#9EB9BA",
+        "color6": "#7CB5C2",
+        "color7": "#c3d5d8",
+        "color8": "#243242",
+        "color9": "#a3f7fc",
+        "color10": "#8ae5ef",
+        "color11": "#bbfffd",
+        "color12": "#87d5e6",
+        "color13": "#b7ffff",
+        "color14": "#8cf8ff",
+        "color15": "#f1ffff"
+    }
+}

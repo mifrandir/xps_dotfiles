@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/miltfra/.wallpapers/sw10wide2.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#17120e",
+        "foreground": "#d1d0cc",
+        "cursor": "#d1d0cc"
+    },
+    "colors": {
+        "color0": "#17120e",
+        "color1": "#89533B",
+        "color2": "#897665",
+        "color3": "#9B8873",
+        "color4": "#CCAE64",
+        "color5": "#847F80",
+        "color6": "#A09B91",
+        "color7": "#d1d0cc",
+        "color8": "#92918e",
+        "color9": "#89533B",
+        "color10": "#897665",
+        "color11": "#9B8873",
+        "color12": "#CCAE64",
+        "color13": "#847F80",
+        "color14": "#A09B91",
+        "color15": "#d1d0cc"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "ogarart1.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0e0104",
+        "foreground": "#fffbfd",
+        "cursor": "#fffbfd"
+    },
+    "colors": {
+        "color0": "#0e0104",
+        "color1": "#dd525c",
+        "color2": "#d96e6d",
+        "color3": "#e78c73",
+        "color4": "#d55766",
+        "color5": "#b46c8a",
+        "color6": "#e1877d",
+        "color7": "#d2cdce",
+        "color8": "#36010d",
+        "color9": "#ff5666",
+        "color10": "#ff7a78",
+        "color11": "#ffa97f",
+        "color12": "#ff5d75",
+        "color13": "#fc79b0",
+        "color14": "#ff9d8b",
+        "color15": "#fffbfd"
+    }
+}

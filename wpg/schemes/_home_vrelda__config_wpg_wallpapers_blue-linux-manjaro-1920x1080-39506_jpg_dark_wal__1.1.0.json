@@ -1,0 +1,28 @@
+{
+    "wallpaper": "blue-linux-manjaro-1920x1080-39506.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#010203",
+        "foreground": "#8ed0ec",
+        "cursor": "#8ed0ec"
+    },
+    "colors": {
+        "color0": "#010203",
+        "color1": "#197EC1",
+        "color2": "#1981BD",
+        "color3": "#3889A5",
+        "color4": "#1C8AC8",
+        "color5": "#2298D5",
+        "color6": "#26A3DD",
+        "color7": "#8ed0ec",
+        "color8": "#6391a5",
+        "color9": "#197EC1",
+        "color10": "#1981BD",
+        "color11": "#3889A5",
+        "color12": "#1C8AC8",
+        "color13": "#2298D5",
+        "color14": "#26A3DD",
+        "color15": "#8ed0ec"
+    }
+}

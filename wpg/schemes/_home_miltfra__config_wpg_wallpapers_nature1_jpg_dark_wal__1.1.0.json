@@ -1,0 +1,28 @@
+{
+    "wallpaper": "nature1.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0a1312",
+        "foreground": "#92ae87",
+        "cursor": "#92ae87"
+    },
+    "colors": {
+        "color0": "#0a1312",
+        "color1": "#877740",
+        "color2": "#6E855B",
+        "color3": "#8C925A",
+        "color4": "#027C83",
+        "color5": "#4E7A86",
+        "color6": "#78bebf",
+        "color7": "#5A6B53",
+        "color8": "#172d2b",
+        "color9": "#bca146",
+        "color10": "#8dbb67",
+        "color11": "#c2cd65",
+        "color12": "#01a2ab",
+        "color13": "#57a6bb",
+        "color14": "#87ffff",
+        "color15": "#92ae87"
+    }
+}

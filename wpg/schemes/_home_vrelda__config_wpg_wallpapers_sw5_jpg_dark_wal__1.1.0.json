@@ -1,0 +1,28 @@
+{
+    "wallpaper": "sw5.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0d0403",
+        "foreground": "#c48b87",
+        "cursor": "#c48b87"
+    },
+    "colors": {
+        "color0": "#0d0403",
+        "color1": "#531F20",
+        "color2": "#512B28",
+        "color3": "#712C27",
+        "color4": "#6D423C",
+        "color5": "#6E4E4F",
+        "color6": "#8D2F29",
+        "color7": "#c48b87",
+        "color8": "#89615e",
+        "color9": "#531F20",
+        "color10": "#512B28",
+        "color11": "#712C27",
+        "color12": "#6D423C",
+        "color13": "#6E4E4F",
+        "color14": "#8D2F29",
+        "color15": "#c48b87"
+    }
+}

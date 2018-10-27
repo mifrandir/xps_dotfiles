@@ -1,0 +1,28 @@
+{
+    "wallpaper": "da1.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#09090b",
+        "foreground": "#ffe4e4",
+        "cursor": "#ffe4e4"
+    },
+    "colors": {
+        "color0": "#09090b",
+        "color1": "#866c6c",
+        "color2": "#677d8b",
+        "color3": "#9b7f7f",
+        "color4": "#4a67b3",
+        "color5": "#4d90bb",
+        "color6": "#2083c3",
+        "color7": "#f6c8c8",
+        "color8": "#1a1a21",
+        "color9": "#bd7c7c",
+        "color10": "#76a5c4",
+        "color11": "#db9292",
+        "color12": "#4f7ef9",
+        "color13": "#52beff",
+        "color14": "#1aadff",
+        "color15": "#ffe4e4"
+    }
+}

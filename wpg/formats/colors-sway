@@ -1,0 +1,21 @@
+set $wallpaper clr2.jpg
+
+set $background #10151e
+set $foreground #fdfffe
+
+set $color0 #10151e
+set $color1 #A68E68
+set $color2 #758373
+set $color3 #C7AF52
+set $color4 #4E738D
+set $color5 #D1A66A
+set $color6 #6D8C9B
+set $color7 #c7cac8
+set $color8 #1d2738
+set $color9 #e9bc75
+set $color10 #8cba85
+set $color11 #ffee58
+set $color12 #5797c5
+set $color13 #ffdb75
+set $color14 #7cbbda
+set $color15 #fdfffe

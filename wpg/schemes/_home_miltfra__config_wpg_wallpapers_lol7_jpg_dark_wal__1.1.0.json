@@ -1,0 +1,28 @@
+{
+    "wallpaper": "lol7.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0a0a0c",
+        "foreground": "#fff7df",
+        "cursor": "#fff7df"
+    },
+    "colors": {
+        "color0": "#0a0a0c",
+        "color1": "#976A60",
+        "color2": "#384553",
+        "color3": "#4B4B54",
+        "color4": "#2C4C68",
+        "color5": "#605E67",
+        "color6": "#49536E",
+        "color7": "#e0c2af",
+        "color8": "#1c1c22",
+        "color9": "#d47f6c",
+        "color10": "#3f5974",
+        "color11": "#575777",
+        "color12": "#2f6390",
+        "color13": "#756d92",
+        "color14": "#53669a",
+        "color15": "#fff7df"
+    }
+}

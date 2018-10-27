@@ -1,0 +1,2 @@
+#!/usr/bin/fish
+xsetroot -solid "#<COLOR8>"

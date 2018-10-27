@@ -1,0 +1,28 @@
+{
+    "wallpaper": "Firewatch-Wallpapers-in-Ultra-HD-4K.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#191111",
+        "foreground": "#04eaff",
+        "cursor": "#04eaff"
+    },
+    "colors": {
+        "color0": "#191111",
+        "color1": "#01516c",
+        "color2": "#01597d",
+        "color3": "#017ba1",
+        "color4": "#01cba6",
+        "color5": "#01648c",
+        "color6": "#017197",
+        "color7": "#04eaff",
+        "color8": "#018aa4",
+        "color9": "#01516c",
+        "color10": "#01597d",
+        "color11": "#017ba1",
+        "color12": "#01cba6",
+        "color13": "#01648c",
+        "color14": "#017197",
+        "color15": "#04eaff"
+    }
+}

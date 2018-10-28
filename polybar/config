@@ -10,13 +10,13 @@ margin = 5
 monitor = eDP1
 offset-y = 5%
 
-background = #000a0c0f
-foreground = #ffd8bb
+background = #000d1216
+foreground = #e9eef6
 
 line-size = 3
 
 border-size = 0
-border-color = #dd0a0c0f
+border-color = #dd0d1216
 
 padding-left = 0
 padding-right = 0
@@ -32,9 +32,9 @@ font-1 = Font Awesome 5 Free:pixelsize=14;3
 font-2 = Font Awesome 5 Free:style=Solid:pixelsize=14;3
 font-3 = Font Awesome 5 Brands:pixelsize=14;3
 
-modules-left = date xwindow 
+modules-left = date pacman aur
 modules-center = i3 
-modules-right = xkeyboard pacman aur wlan eth battery
+modules-right = pulseaudio xkeyboard backlight wlan eth battery 
 
 tray-position =
 tray-padding = 1
@@ -46,15 +46,23 @@ cursor-scroll = ns-resize
 type = custom/script
 exec = ~/.config/polybar/updates-arch.sh
 interval = 600
-format-foreground = #c53c2a
+format-foreground = #85be8e
 label-padding = 1
 
 [module/aur]
 type = custom/script
 exec = ~/.config/polybar/updates-arch-aur.sh
 interval = 600
-format-foreground = #8F362A
+format-foreground = #738676
 label-padding = 1
+
+[module/backlight]
+type = internal/xbacklight
+enable-scroll = true
+label = %percentage%
+format =  <label>
+format-foreground = #927162
+format-padding = 1
 
 [module/battery]
 type = internal/battery
@@ -64,25 +72,43 @@ adapter = ADP1
 poll-interval = 5
 label-charging =  %percentage%
 label-charging-padding = 1
-format-charging-foreground = #4E4641
+format-charging-foreground = #8E8878
 label-discharging =  %percentage%
 label-discharging-padding = 1
-format-discharging-foreground = #4E4641
+format-discharging-foreground = #EC9C60
 label-full =  100
 label-full-padding =1
-format-full-foreground = #6e584b
+format-full-foreground = #c9b88b
+
+[module/pulseaudio]
+type = internal/pulseaudio
+sink = alsa_output.pci-0000_12_00.3.analog-stereo
+use-ui-max = true
+interval = 5
+format-volume-foreground = #40b293
+format-volume-padding = 1
+format-volume = <ramp-volume> <label-volume>
+format-muted-padding = 1
+format-muted-foreground = #3B806D
+format-muted = <label-muted>
+label-volume = %percentage%
+label-muted =  --
+
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
 
 [module/xwindow]
 type = internal/xwindow
 label = %title:0:50:...%
 label-padding = 1
-format-foreground = #e85b2d
+format-foreground = #ffc767
 
 [module/xkeyboard]
 type = internal/xkeyboard
 blacklist-0 = num lock
 
-format-foreground = #605157
+format-foreground = #8E8878
 
 label-layout =   %layout%
 label-layout-padding = 1
@@ -110,30 +136,30 @@ format-focused = <label-focused>
 label-focused = %name%
 label-focused-padding = 1
 label-focused-margin = 0
-label-focused-foreground = #ffd8bb
+label-focused-foreground = #e9eef6
 
 format-unfocused = <label-unfocused>
 label-unfocused = %name%
 label-unfocused-padding = 1
 label-unfocused-margin = 0
-label-unfocused-foreground = #4E4641
+label-unfocused-foreground = #3B806D
 
 label-mode-padding = 0
 label-mode-margin = 0
-label-mode-foreground = #ffd8bb
+label-mode-foreground = #e9eef6
 label-mode = %mode%
 
 format-urgent = <label-urgent>
 label-urgent = %name%
 label-urgent-padding = 1
 label-urgent-margin = 0
-label-urgent-foreground = #A93526
+label-urgent-foreground = #927162
 
 format-visible = <label-visible>
 label-visible = %name%
 label-visible-padding = 1
 label-visible-margin = 0
-label-visible-foreground = #e6a48e
+label-visible-foreground = #afb3b9
 
 [module/wlan]
 type = internal/network
@@ -143,8 +169,8 @@ label-connected =  %essid% %local_ip%
 format-connected-padding = 1
 
 format-disconnected =  --
-format-connected-foreground = #2f4b5f
-format-disconnected-foreground = #2A3944
+format-connected-foreground = #84a57f
+format-disconnected-foreground = #6E746D
 format-disconnected-padding = 1
 
 [module/eth]
@@ -155,14 +181,14 @@ label-connected =  %local_ip%
 format-connected-padding = 1
 
 format-disconnected =  --
-format-connected-foreground = #e85b2d
-format-disconnected-foreground = #A84C2E
+format-connected-foreground = #ffc767
+format-disconnected-foreground = #EC9C60
 format-disconnected-padding = 1
 
 [module/date]
 type = internal/date
 interval = 1
-format-foreground = #e6a48e
+format-foreground = #afb3b9
 date =" %m/%d"
 date-alt = " %Y/%m/%d"
 

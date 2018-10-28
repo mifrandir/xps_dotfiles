@@ -36,3 +36,7 @@
 [2018-10-28 17:27:13.352] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/json-language-features/client/dist/jsonMain
 [2018-10-28 17:27:13.432] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
 [2018-10-28 17:27:13.432] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension
+[2018-10-28 18:56:01.673] [exthost] [info] ExtensionService#_doActivateExtension vscode.python {"startup":false,"activationEvent":"onLanguage:python"}
+[2018-10-28 18:56:01.673] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/python/out/pythonMain
+[2018-10-28 18:56:01.676] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python {"startup":false,"activationEvent":"onLanguage:python"}
+[2018-10-28 18:56:01.676] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/ms-python.python-2018.9.1/out/client/extension

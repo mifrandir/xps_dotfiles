@@ -1,2 +1,2 @@
-#!/bin/bash
-wpg -nrs clr2.jpg clr2.jpg
+#!/usr/bin/env bash
+wpg -nrs up14.jpg up14.jpg

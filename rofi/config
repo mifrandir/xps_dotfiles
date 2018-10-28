@@ -4,10 +4,10 @@ rofi.width:                          50
 rofi.lines:                          8
 rofi.columns:                        3
 rofi.font:                           FiraCode 12
-rofi.color-normal:                   argb:0010151e, #fdfffe, argb:0010151e, #ffee58, #10151e
-rofi.color-urgent:                   #10151e, #1d2738, #c7cac8, #ffee58, #1d2738
-rofi.color-active:                   #10151e, #1d2738, #c7cac8, #ffee58, #1d2738
-rofi.color-window:                   argb:dd10151e, argb:ffffee58, #ffdb75
+rofi.color-normal:                   argb:000a0c0f, #ffd8bb, argb:000a0c0f, #e85b2d, #0a0c0f
+rofi.color-urgent:                   #0a0c0f, #191f27, #e6a48e, #e85b2d, #191f27
+rofi.color-active:                   #0a0c0f, #191f27, #e6a48e, #e85b2d, #191f27
+rofi.color-window:                   argb:dd0a0c0f, argb:ffe85b2d, #885d6e
 rofi.bw:                             2
 rofi.location:                       2
 rofi.padding:                        10

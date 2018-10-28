@@ -1,0 +1,139 @@
+Starting Jedi Python language engine.
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module gru_trainer
+2,4,warning,W0612:Unused variable 'os'
+4,4,warning,W0612:Unused variable 'initializer'
+4,4,warning,W0612:Unused variable 'metric'
+
+-----------------------------------
+Your code has been rated at 9.60/10
+
+##########Linting Output - pylint##########
+##########Linting Output - pylint##########
+************* Module gru_loader
+15,51,error,E0602:Undefined variable 'batch_size'
+
+-------------------------------------------------------------------
+Your code has been rated at 7.50/10 (previous run: 10.00/10, -2.50)
+
+##########Linting Output - pylint##########
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 7.50/10, +2.50)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+------------------------------------
+Your code has been rated at 10.00/10
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+------------------------------------
+Your code has been rated at 10.00/10
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+##########Linting Output - pylint##########
+************* Module gru_loader
+23,8,warning,W0612:Unused variable 'o'
+23,11,warning,W0612:Unused variable 'h'
+
+-------------------------------------------------------------------
+Your code has been rated at 9.09/10 (previous run: 10.00/10, -0.91)
+
+##########Linting Output - pylint##########
+************* Module gru_loader
+23,8,warning,W0612:Unused variable 'o'
+
+------------------------------------------------------------------
+Your code has been rated at 9.55/10 (previous run: 9.09/10, +0.45)
+
+##########Linting Output - pylint##########
+************* Module gru_loader
+23,8,warning,W0612:Unused variable 'o'
+
+------------------------------------------------------------------
+Your code has been rated at 9.55/10 (previous run: 9.55/10, +0.00)
+
+##########Linting Output - pylint##########
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.55/10, +0.45)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module gru_loader
+26,50,error,E0602:Undefined variable 'sym'
+
+-------------------------------------------------------------------
+Your code has been rated at 8.08/10 (previous run: 10.00/10, -1.92)
+
+##########Linting Output - pylint##########
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 8.08/10, +1.92)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+

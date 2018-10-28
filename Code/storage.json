@@ -3,12 +3,12 @@
     "openedPathsList": {
         "workspaces2": [
             "file:///home/vrelda/projects/Seminararbeit",
+            "file:///home/miltfra/documents",
+            "file:///home/vrelda/dotfiles",
             "file:///home/vrelda/projects/rechnungen",
             "file:///home/miltfra/projects/jannes_semi",
             "file:///home/miltfra/projects/semi",
-            "file:///home/vrelda/dotfiles",
             "file:///home/vrelda/projects/bwinf37",
-            "file:///home/miltfra/documents",
             "file:///home/vrelda/documents/study",
             "file:///media/hdd1/documents/study",
             "file:///home/vrelda/.config",
@@ -16,6 +16,9 @@
             "file:///home/vrelda/projects/bwinf37/bwinf37-runde1"
         ],
         "files2": [
+            "file:///home/miltfra/dotfiles/i3/startup.sh",
+            "file:///home/miltfra/dotfiles/wpg/templates/bg.sh.base",
+            "file:///home/miltfra/dotfiles/i3/bg.sh",
             "file:///home/miltfra/anaconda3/bin/conda-build",
             "file:///home/miltfra/scikit-learn",
             "file:///home/miltfra/install",
@@ -95,7 +98,7 @@
         },
         "workbench.action.closeWindow": {
             "id": "workbench.action.closeWindow",
-            "label": "Ctrl+W",
+            "label": "Ctrl+Shift+W",
             "isNative": true
         },
         "workbench.action.closeFolder": {
@@ -245,8 +248,8 @@
         },
         "workbench.view.scm": {
             "id": "workbench.view.scm",
-            "label": "Ctrl+Shift+G",
-            "isNative": true
+            "label": "Ctrl+Shift+G G",
+            "isNative": false
         },
         "workbench.view.debug": {
             "id": "workbench.view.debug",
@@ -507,10 +510,10 @@
             "backupPath": "/home/miltfra/.config/Code/Backups/fad20a7050911d3806214ba32b0b25c4",
             "uiState": {
                 "mode": 1,
-                "x": 1920,
-                "y": 26,
+                "x": 0,
+                "y": 30,
                 "width": 1920,
-                "height": 1054
+                "height": 1050
             }
         }
     }

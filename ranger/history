@@ -33,7 +33,6 @@ rename sw9.jpg
 search sw9.jpg
 search eb
 rename screenlayout.sh
-
 search lp4
 search fstab
 search sw9
@@ -48,3 +47,4 @@ rename fish_prompt.fish
 w
 search sw10
 search npm
+

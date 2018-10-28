@@ -1,0 +1,19 @@
+[2018-10-27 20:19:25.141] [renderer1] [info] no standard startup: not the explorer viewlet
+[2018-10-27 20:19:26.339] [renderer1] [error] no adapter found: Error: no adapter found
+	at e._withAdapter (/opt/visual-studio-code/resources/app/out/vs/workbench/node/extensionHostProcess.js:512:117)
+	at e.$provideHover (/opt/visual-studio-code/resources/app/out/vs/workbench/node/extensionHostProcess.js:514:788)
+	at t._doInvokeHandler (/opt/visual-studio-code/resources/app/out/vs/workbench/node/extensionHostProcess.js:640:888)
+	at t._invokeHandler (/opt/visual-studio-code/resources/app/out/vs/workbench/node/extensionHostProcess.js:640:554)
+	at t._receiveRequest (/opt/visual-studio-code/resources/app/out/vs/workbench/node/extensionHostProcess.js:639:60)
+	at t._receiveOneMessage (/opt/visual-studio-code/resources/app/out/vs/workbench/node/extensionHostProcess.js:638:59)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/node/extensionHostProcess.js:635:926
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:138
+	at e.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/node/extensionHostProcess.js:99:496)
+	at a (/opt/visual-studio-code/resources/app/out/vs/workbench/node/extensionHostProcess.js:154:213)
+	at Socket._socketDataListener (/opt/visual-studio-code/resources/app/out/vs/workbench/node/extensionHostProcess.js:154:432)
+	at emitOne (events.js:116:13)
+	at Socket.emit (events.js:211:7)
+	at addChunk (_stream_readable.js:263:12)
+	at readableAddChunk (_stream_readable.js:250:11)
+	at Socket.Readable.push (_stream_readable.js:208:10)
+	at Pipe.onread (net.js:594:20)

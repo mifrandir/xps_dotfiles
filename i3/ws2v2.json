@@ -21,9 +21,9 @@
             "percent": 0.8,
             "swallows": [
                {
-               // "class": "^Termite$",
+               "class": "^URxvt$",
                "instance": "^ranger$"
-               // "title": "^ranger\\:\\~$",
+               // "title": "^ranger\\:\\~$"
                // "transient_for": "^$"
                }
             ],
@@ -43,9 +43,9 @@
             "percent": 0.2,
             "swallows": [
                {
-               // "class": "^Termite$",
+               "class": "^URxvt$",
                "instance": "^htop$"
-               // "title": "^htop\\ \\ \\/home\\/vrelda$",
+               //"title": "^htop$"
                // "transient_for": "^$"
                }
             ],
@@ -76,8 +76,8 @@
             "percent": 0.5,
             "swallows": [
                {
-              // "class": "^Termite$",
-               "instance": "^termite$"
+               "class": "^URxvt$",
+               "instance": "^urxvt$"
                // "title": "^i3\\-save\\-tree\\ \\ \\/home\\/vrelda$",
                // "transient_for": "^$"
                }
@@ -98,8 +98,8 @@
             "percent": 0.5,
             "swallows": [
                {
-               // "class": "^Termite$",
-               "instance": "^termite$"
+                "class": "^URxvt$",
+               "instance": "^urxvt$"
                // "title": "^fish\\ \\ \\/home\\/vrelda$",
                // "transient_for": "^$"
                }

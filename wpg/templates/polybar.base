@@ -1,0 +1,184 @@
+[bar/default]
+width = 100%
+offset-x = 5%
+override-redirect = false
+height = 30
+radius = 0
+fixed-center = true
+bottom = false
+margin = 5
+monitor = eDP1
+offset-y = 5%
+
+background = #00<COLOR0>
+foreground = #<COLOR15>
+
+line-size = 3
+
+border-size = 0
+border-color = #dd<COLOR0>
+
+padding-left = 0
+padding-right = 0
+
+module-margin-left = 0
+module-margin-right = 0
+module-padding-left = 1
+module-padding-right = 1
+
+
+font-0 = Input Mono:style=Bold:pixelsize=14;2
+font-1 = Font Awesome 5 Free:pixelsize=14;3
+font-2 = Font Awesome 5 Free:style=Solid:pixelsize=14;3
+font-3 = Font Awesome 5 Brands:pixelsize=14;3
+
+modules-left = date xwindow 
+modules-center = i3 
+modules-right = xkeyboard pacman aur wlan eth battery
+
+tray-position =
+tray-padding = 1
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+[module/pacman]
+type = custom/script
+exec = ~/.config/polybar/updates-arch.sh
+interval = 600
+format-foreground = #<COLOR14>
+label-padding = 1
+
+[module/aur]
+type = custom/script
+exec = ~/.config/polybar/updates-arch-aur.sh
+interval = 600
+format-foreground = #<COLOR6>
+label-padding = 1
+
+[module/battery]
+type = internal/battery
+full-at = 99
+battery = BAT0
+adapter = ADP1
+poll-interval = 5
+label-charging =  %percentage%
+label-charging-padding = 1
+format-charging-foreground = #<COLOR2>
+label-discharging =  %percentage%
+label-discharging-padding = 1
+format-discharging-foreground = #<COLOR2>
+label-full =  100
+label-full-padding =1
+format-full-foreground = #<COLOR10>
+
+[module/xwindow]
+type = internal/xwindow
+label = %title:0:50:...%
+label-padding = 1
+format-foreground = #<COLOR11>
+
+[module/xkeyboard]
+type = internal/xkeyboard
+blacklist-0 = num lock
+
+format-foreground = #<COLOR5>
+
+label-layout =   %layout%
+label-layout-padding = 1
+
+[module/i3]
+type = internal/i3
+
+pin-workspaces = false
+strip-wsnumbers = true
+index-sort = true
+enable-click = false
+enable-scroll = false
+wrapping-scroll = false
+reverse-scroll = false
+fuzzy-match = true
+
+ws-icon-0=1:web;
+ws-icon-1=2:shell;
+ws-icon-2=3:tools;
+ws-icon-3=4:code;
+ws-icon-default=
+
+
+format-focused = <label-focused>
+label-focused = %name%
+label-focused-padding = 1
+label-focused-margin = 0
+label-focused-foreground = #<COLOR15>
+
+format-unfocused = <label-unfocused>
+label-unfocused = %name%
+label-unfocused-padding = 1
+label-unfocused-margin = 0
+label-unfocused-foreground = #<COLOR2>
+
+label-mode-padding = 0
+label-mode-margin = 0
+label-mode-foreground = #<COLOR15>
+label-mode = %mode%
+
+format-urgent = <label-urgent>
+label-urgent = %name%
+label-urgent-padding = 1
+label-urgent-margin = 0
+label-urgent-foreground = #<COLOR1>
+
+format-visible = <label-visible>
+label-visible = %name%
+label-visible-padding = 1
+label-visible-margin = 0
+label-visible-foreground = #<COLOR7>
+
+[module/wlan]
+type = internal/network
+interface = wlp2s0
+interval = 1.0
+label-connected =  %essid% %local_ip%
+format-connected-padding = 1
+
+format-disconnected =  --
+format-connected-foreground = #<COLOR12>
+format-disconnected-foreground = #<COLOR4>
+format-disconnected-padding = 1
+
+[module/eth]
+type = internal/network
+interface = 
+interval = 1.0
+label-connected =  %local_ip%
+format-connected-padding = 1
+
+format-disconnected =  --
+format-connected-foreground = #<COLOR11>
+format-disconnected-foreground = #<COLOR3>
+format-disconnected-padding = 1
+
+[module/date]
+type = internal/date
+interval = 1
+format-foreground = #<COLOR7>
+date =" %m/%d"
+date-alt = " %Y/%m/%d"
+
+time = %H:%M
+time-alt = %H:%M:%S
+
+label = %date% %time%
+label-padding = 1
+
+[settings]
+screenchange-reload = true
+;compositing-background = xor
+;compositing-background = screen
+;compositing-foreground = source
+;compositing-border = over
+
+[global/wm]
+margin-top = 5
+margin-bottom = 5

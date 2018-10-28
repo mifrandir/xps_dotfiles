@@ -1,0 +1,120 @@
+[2018-10-27 23:38:51.517] [exthost] [info] extension host started
+[2018-10-27 23:38:51.536] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-10-27 23:38:51.536] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/debug-auto-launch/dist/extension
+[2018-10-27 23:38:51.543] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-10-27 23:38:51.543] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/emmet/dist/extension
+[2018-10-27 23:38:51.583] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-10-27 23:38:51.583] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/git/dist/main
+[2018-10-27 23:38:51.730] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-10-27 23:38:51.731] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/merge-conflict/dist/extension
+[2018-10-27 23:38:51.739] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-10-27 23:38:51.739] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/search-rg/dist/extension
+[2018-10-27 23:38:51.744] [exthost] [info] ExtensionService#_doActivateExtension 2gua.rainbow-brackets {"startup":true,"activationEvent":"*"}
+[2018-10-27 23:38:51.744] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/2gua.rainbow-brackets-0.0.6/out/src/extension
+[2018-10-27 23:38:51.745] [exthost] [info] ExtensionService#_doActivateExtension cmschuetz12.wal {"startup":true,"activationEvent":"*"}
+[2018-10-27 23:38:51.745] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/cmschuetz12.wal-0.1.0/out/extension
+[2018-10-27 23:38:51.778] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":true,"activationEvent":"*"}
+[2018-10-27 23:38:51.778] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/eamodio.gitlens-8.5.6/out/extension
+[2018-10-27 23:38:51.931] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"activationEvent":"*"}
+[2018-10-27 23:38:51.931] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/hookyqr.beautify-1.4.7/extension
+[2018-10-27 23:38:51.981] [exthost] [info] ExtensionService#_doActivateExtension kruemelkatze.vscode-dashboard {"startup":true,"activationEvent":"*"}
+[2018-10-27 23:38:51.981] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/kruemelkatze.vscode-dashboard-1.1.0/out/dashboard
+[2018-10-27 23:38:51.987] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight {"startup":true,"activationEvent":"*"}
+[2018-10-27 23:38:51.987] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/naumovs.color-highlight-2.3.0/dist/extension
+[2018-10-27 23:38:52.026] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2018-10-27 23:38:52.026] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/pkief.material-icon-theme-3.6.0/out/src/extension
+[2018-10-27 23:38:52.064] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"activationEvent":"*"}
+[2018-10-27 23:38:52.064] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/vscodevim.vim-0.16.12/out/extension
+[2018-10-27 23:38:52.440] [exthost] [info] eager extensions activated
+[2018-10-27 23:38:52.457] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-10-27 23:38:52.457] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/configuration-editing/dist/extension
+[2018-10-27 23:38:52.468] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-10-27 23:38:52.468] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2018-10-27 23:38:52.542] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-10-27 23:38:52.542] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension
+[2018-10-27 23:38:52.610] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-10-27 23:38:52.610] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/aaron-bond.better-comments-2.0.2/out/extension
+[2018-10-27 23:39:26.159] [exthost] [info] ExtensionService#_doActivateExtension vscode.python {"startup":false,"activationEvent":"onLanguage:python"}
+[2018-10-27 23:39:26.159] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/python/out/pythonMain
+[2018-10-27 23:39:26.161] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python {"startup":false,"activationEvent":"onLanguage:python"}
+[2018-10-27 23:39:26.161] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/ms-python.python-2018.9.1/out/client/extension
+[2018-10-27 23:48:48.117] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"activationEvent":"onLanguage:html"}
+[2018-10-27 23:48:48.117] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2018-10-28 00:04:01.178] [exthost] [info] extension host started
+[2018-10-28 00:04:01.203] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-10-28 00:04:01.203] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/debug-auto-launch/dist/extension
+[2018-10-28 00:04:01.210] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-10-28 00:04:01.210] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/emmet/dist/extension
+[2018-10-28 00:04:01.254] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-10-28 00:04:01.254] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/git/dist/main
+[2018-10-28 00:04:01.441] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-10-28 00:04:01.441] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/merge-conflict/dist/extension
+[2018-10-28 00:04:01.449] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-10-28 00:04:01.449] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/search-rg/dist/extension
+[2018-10-28 00:04:01.455] [exthost] [info] ExtensionService#_doActivateExtension 2gua.rainbow-brackets {"startup":true,"activationEvent":"*"}
+[2018-10-28 00:04:01.455] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/2gua.rainbow-brackets-0.0.6/out/src/extension
+[2018-10-28 00:04:01.456] [exthost] [info] ExtensionService#_doActivateExtension cmschuetz12.wal {"startup":true,"activationEvent":"*"}
+[2018-10-28 00:04:01.456] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/cmschuetz12.wal-0.1.0/out/extension
+[2018-10-28 00:04:01.486] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":true,"activationEvent":"*"}
+[2018-10-28 00:04:01.487] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/eamodio.gitlens-8.5.6/out/extension
+[2018-10-28 00:04:01.631] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"activationEvent":"*"}
+[2018-10-28 00:04:01.631] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/hookyqr.beautify-1.4.7/extension
+[2018-10-28 00:04:01.678] [exthost] [info] ExtensionService#_doActivateExtension kruemelkatze.vscode-dashboard {"startup":true,"activationEvent":"*"}
+[2018-10-28 00:04:01.678] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/kruemelkatze.vscode-dashboard-1.1.0/out/dashboard
+[2018-10-28 00:04:01.684] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight {"startup":true,"activationEvent":"*"}
+[2018-10-28 00:04:01.684] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/naumovs.color-highlight-2.3.0/dist/extension
+[2018-10-28 00:04:01.720] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2018-10-28 00:04:01.720] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/pkief.material-icon-theme-3.6.0/out/src/extension
+[2018-10-28 00:04:01.756] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"activationEvent":"*"}
+[2018-10-28 00:04:01.756] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/vscodevim.vim-0.16.12/out/extension
+[2018-10-28 00:04:02.111] [exthost] [info] eager extensions activated
+[2018-10-28 00:04:02.113] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments {"startup":false,"activationEvent":"onLanguage:plaintext"}
+[2018-10-28 00:04:02.113] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/aaron-bond.better-comments-2.0.2/out/extension
+[2018-10-28 00:04:02.506] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-10-28 00:04:02.506] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/configuration-editing/dist/extension
+[2018-10-28 00:04:02.517] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-10-28 00:04:02.517] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2018-10-28 00:04:02.589] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-10-28 00:04:02.589] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension
+[2018-10-28 09:41:46.566] [exthost] [info] extension host started
+[2018-10-28 09:41:46.590] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-10-28 09:41:46.590] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/debug-auto-launch/dist/extension
+[2018-10-28 09:41:46.600] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-10-28 09:41:46.600] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/emmet/dist/extension
+[2018-10-28 09:41:46.649] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-10-28 09:41:46.649] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/git/dist/main
+[2018-10-28 09:41:46.804] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-10-28 09:41:46.804] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/merge-conflict/dist/extension
+[2018-10-28 09:41:46.812] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-10-28 09:41:46.812] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/search-rg/dist/extension
+[2018-10-28 09:41:46.818] [exthost] [info] ExtensionService#_doActivateExtension 2gua.rainbow-brackets {"startup":true,"activationEvent":"*"}
+[2018-10-28 09:41:46.818] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/2gua.rainbow-brackets-0.0.6/out/src/extension
+[2018-10-28 09:41:46.820] [exthost] [info] ExtensionService#_doActivateExtension cmschuetz12.wal {"startup":true,"activationEvent":"*"}
+[2018-10-28 09:41:46.820] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/cmschuetz12.wal-0.1.0/out/extension
+[2018-10-28 09:41:46.856] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":true,"activationEvent":"*"}
+[2018-10-28 09:41:46.856] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/eamodio.gitlens-8.5.6/out/extension
+[2018-10-28 09:41:47.015] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"activationEvent":"*"}
+[2018-10-28 09:41:47.015] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/hookyqr.beautify-1.4.7/extension
+[2018-10-28 09:41:47.067] [exthost] [info] ExtensionService#_doActivateExtension kruemelkatze.vscode-dashboard {"startup":true,"activationEvent":"*"}
+[2018-10-28 09:41:47.067] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/kruemelkatze.vscode-dashboard-1.1.0/out/dashboard
+[2018-10-28 09:41:47.072] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight {"startup":true,"activationEvent":"*"}
+[2018-10-28 09:41:47.072] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/naumovs.color-highlight-2.3.0/dist/extension
+[2018-10-28 09:41:47.110] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2018-10-28 09:41:47.110] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/pkief.material-icon-theme-3.6.0/out/src/extension
+[2018-10-28 09:41:47.147] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"activationEvent":"*"}
+[2018-10-28 09:41:47.147] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/vscodevim.vim-0.16.12/out/extension
+[2018-10-28 09:41:47.522] [exthost] [info] eager extensions activated
+[2018-10-28 09:41:47.526] [exthost] [info] ExtensionService#_doActivateExtension vscode.python {"startup":false,"activationEvent":"onLanguage:python"}
+[2018-10-28 09:41:47.526] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/python/out/pythonMain
+[2018-10-28 09:41:47.526] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments {"startup":false,"activationEvent":"onLanguage:python"}
+[2018-10-28 09:41:47.526] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/aaron-bond.better-comments-2.0.2/out/extension
+[2018-10-28 09:41:47.530] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python {"startup":false,"activationEvent":"onLanguage:python"}
+[2018-10-28 09:41:47.530] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/ms-python.python-2018.9.1/out/client/extension
+[2018-10-28 09:41:48.969] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-10-28 09:41:48.969] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/configuration-editing/dist/extension
+[2018-10-28 09:41:48.980] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-10-28 09:41:48.980] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2018-10-28 09:41:49.049] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-10-28 09:41:49.049] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension
+[2018-10-28 09:42:00.134] [exthost] [info] ExtensionService#_doActivateExtension James-Yu.latex-workshop {"startup":false,"activationEvent":"onLanguage:latex"}
+[2018-10-28 09:42:00.134] [exthost] [info] ExtensionService#loadCommonJSModule /home/miltfra/.vscode/extensions/james-yu.latex-workshop-5.13.0/out/src/main.js

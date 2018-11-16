@@ -2,7 +2,7 @@
 width = 100%
 offset-x = 5%
 override-redirect = false
-height = 30
+height = 35
 radius = 0
 fixed-center = true
 bottom = false
@@ -27,7 +27,7 @@ module-padding-left = 1
 module-padding-right = 1
 
 
-font-0 = Input Mono:style=Bold:pixelsize=14;2
+font-0 = Input Mono:style=Bold:pixelsize=14;3
 font-1 = Font Awesome 5 Free:pixelsize=14;3
 font-2 = Font Awesome 5 Free:style=Solid:pixelsize=14;3
 font-3 = Font Awesome 5 Brands:pixelsize=14;3

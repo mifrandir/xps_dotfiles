@@ -3,15 +3,15 @@ rofi.m:				     0
 rofi.width:                          50
 rofi.lines:                          8
 rofi.columns:                        3
-rofi.font:                           FiraCode 12
-rofi.color-normal:                   argb:000d1216, #e9eef6, argb:000d1216, #ffc767, #0d1216
-rofi.color-urgent:                   #0d1216, #1b262f, #afb3b9, #ffc767, #1b262f
-rofi.color-active:                   #0d1216, #1b262f, #afb3b9, #ffc767, #1b262f
-rofi.color-window:                   argb:dd0d1216, argb:ffffc767, #c9b88b
+rofi.font:                           Input Mono 12
+rofi.color-normal:                   #171d26, #f1f1f4, #171d26, #f0e556, #171d26
+rofi.color-urgent:                   #171d26, #26303f, #c8c8cc, #ed4628, #26303f
+rofi.color-active:                   #171d26, #26303f, #c8c8cc, #ed4628, #26303f
+rofi.color-window:                   #171d26, #ed4628, #f07b63
 rofi.bw:                             2
 rofi.location:                       2
 rofi.padding:                        10
-rofi.yoffset:                        26
+rofi.yoffset:                        35
 rofi.xoffset:                        0
 rofi.fixed-num-lines:                true
 rofi.terminal:                       rofi-sensible-terminal

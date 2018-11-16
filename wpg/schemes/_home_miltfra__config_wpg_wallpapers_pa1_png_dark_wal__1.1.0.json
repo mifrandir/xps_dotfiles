@@ -1,0 +1,28 @@
+{
+    "wallpaper": "pa1.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#01142d",
+        "foreground": "#f8ffff",
+        "cursor": "#f8ffff"
+    },
+    "colors": {
+        "color0": "#01142d",
+        "color1": "#92a2b6",
+        "color2": "#8795a9",
+        "color3": "#a9b4c4",
+        "color4": "#74869b",
+        "color5": "#9699a7",
+        "color6": "#99adbf",
+        "color7": "#d1d8dc",
+        "color8": "#012555",
+        "color9": "#a8d0ff",
+        "color10": "#9bbeef",
+        "color11": "#c4e5ff",
+        "color12": "#85acdb",
+        "color13": "#aeb9ed",
+        "color14": "#b0e2ff",
+        "color15": "#f8ffff"
+    }
+}

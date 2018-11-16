@@ -41,12 +41,12 @@
             ]
         },
         {
-            "name": "pdflatex -> bibtex -> pdflatex*2",
+            "name": "lualatex -> bibtex -> lualatex*2",
             "tools": [
-                "pdflatex",
+                "lualatex",
                 "bibtex",
-                "pdflatex",
-                "pdflatex"
+                "lualatex",
+                "lualatex"
             ]
         }
     ],

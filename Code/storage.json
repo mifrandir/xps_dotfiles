@@ -2,15 +2,15 @@
     "telemetry.machineId": "7e7e30900b0dba6a5864663370066ccb2459feb84b8c8f83970d1a9d4e71981e",
     "openedPathsList": {
         "workspaces2": [
+            "file:///home/vrelda/projects/Seminararbeit",
+            "file:///home/vrelda/dotfiles",
             "file:///home/vrelda/projects/bwinf37",
             "file:///home/miltfra/documents",
             "file:///home/miltfra/projects/stormbreaker",
             "file:///home/miltfra/projects/python_ag",
-            "file:///home/vrelda/projects/Seminararbeit",
             "file:///home/miltfra/documents/2018-11-22-sport",
             "file:///home/miltfra/main_dotfiles",
             "file:///home/miltfra/videos",
-            "file:///home/vrelda/dotfiles",
             "file:///home/vrelda/projects/rechnungen",
             "file:///home/miltfra/projects/jannes_semi",
             "file:///home/miltfra/projects/semi",
@@ -20,6 +20,7 @@
             "file:///home/vrelda/projects/bwinf37/bwinf37-runde1"
         ],
         "files2": [
+            "file:///home/miltfra/projects/bwinf37/bwinf37-runde1/a5-Widerstand/out",
             "file:///home/miltfra/projects/python_ag/mergesort.py",
             "file:///home/miltfra/projects/Seminararbeit/Dokumente/Arbeit/2018-00%20Arbeit.tex",
             "file:///home/miltfra/documents/info-lk/20181015.txt",
@@ -816,7 +817,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"

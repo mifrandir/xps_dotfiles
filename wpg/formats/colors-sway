@@ -1,9 +1,9 @@
 set $wallpaper up14.jpg
 
-set $background #171d26
-set $foreground #f1f1f4
+set $background #1a1d27
+set $foreground #fcfcff
 
-set $color0 #171d26
+set $color0 #1a1d27
 set $color1 #c83e2b
 set $color2 #ac3f31
 set $color3 #f0ae52
@@ -11,11 +11,11 @@ set $color4 #c55935
 set $color5 #cf695a
 set $color6 #ee6533
 set $color7 #c8c8cc
-set $color8 #26303f
-set $color9 #ed4628
-set $color10 #ee4832
-set $color11 #f0e556
-set $color12 #ee6d35
-set $color13 #f07b63
-set $color14 #ee7b2f
-set $color15 #f1f1f4
+set $color8 #292e3f
+set $color9 #ff4428
+set $color10 #ee4631
+set $color11 #ffe555
+set $color12 #ff6b34
+set $color13 #ff7a61
+set $color14 #ff7a2f
+set $color15 #fcfcff

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/bash
 setxkbmap -layout us,de
 setxkbmap -option 'grp:win_space_toggle'
 i3-msg "workspace 2:shell; append_layout ~/.config/i3/ws2v2.json" 

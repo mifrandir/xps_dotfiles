@@ -10,13 +10,13 @@ margin = 5
 monitor = eDP1
 offset-y = 5%
 
-background = #00171d26
-foreground = #f1f1f4
+background = #001a1d27
+foreground = #fcfcff
 
 line-size = 3
 
 border-size = 0
-border-color = #dd171d26
+border-color = #dd1a1d27
 
 padding-left = 0
 padding-right = 0
@@ -46,7 +46,7 @@ cursor-scroll = ns-resize
 type = custom/script
 exec = ~/.config/polybar/updates-arch.sh
 interval = 600
-format-foreground = #ee7b2f
+format-foreground = #ff7a2f
 label-padding = 1
 
 [module/aur]
@@ -78,14 +78,14 @@ label-discharging-padding = 1
 format-discharging-foreground = #f0ae52
 label-full =  100
 label-full-padding =1
-format-full-foreground = #f07b63
+format-full-foreground = #ff7a61
 
 [module/pulseaudio]
 type = internal/pulseaudio
 sink = alsa_output.pci-0000_12_00.3.analog-stereo
 use-ui-max = true
 interval = 5
-format-volume-foreground = #ee4832
+format-volume-foreground = #ee4631
 format-volume-padding = 1
 format-volume = <ramp-volume> <label-volume>
 format-muted-padding = 1
@@ -102,7 +102,7 @@ ramp-volume-2 = 
 type = internal/xwindow
 label = %title:0:50:...%
 label-padding = 1
-format-foreground = #f0e556
+format-foreground = #ffe555
 
 [module/xkeyboard]
 type = internal/xkeyboard
@@ -136,7 +136,7 @@ format-focused = <label-focused>
 label-focused = %name%
 label-focused-padding = 1
 label-focused-margin = 0
-label-focused-foreground = #f1f1f4
+label-focused-foreground = #fcfcff
 
 format-unfocused = <label-unfocused>
 label-unfocused = %name%
@@ -146,7 +146,7 @@ label-unfocused-foreground = #ac3f31
 
 label-mode-padding = 0
 label-mode-margin = 0
-label-mode-foreground = #f1f1f4
+label-mode-foreground = #fcfcff
 label-mode = %mode%
 
 format-urgent = <label-urgent>
@@ -169,7 +169,7 @@ label-connected =  %essid% %local_ip%
 format-connected-padding = 1
 
 format-disconnected =  --
-format-connected-foreground = #ee6d35
+format-connected-foreground = #ff6b34
 format-disconnected-foreground = #c55935
 format-disconnected-padding = 1
 
@@ -181,7 +181,7 @@ label-connected =  %local_ip%
 format-connected-padding = 1
 
 format-disconnected =  --
-format-connected-foreground = #f0e556
+format-connected-foreground = #ffe555
 format-disconnected-foreground = #f0ae52
 format-disconnected-padding = 1
 

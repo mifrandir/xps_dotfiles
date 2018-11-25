@@ -58,7 +58,7 @@
     "explorer.confirmDragAndDrop": false,
     "editor.fontLigatures": true,
     "color-highlight.markerType": "outline",
-    "workbench.sideBar.location": "left",
+    "workbench.sideBar.location": "right",
     "terminal.integrated.rendererType": "dom",
     "wal.autoReload": true,
     "wal.tokenColorTheme": "lucy",
@@ -1256,5 +1256,11 @@
             ]
         }
     },
-    "terminal.integrated.fontSize": 14
+    "terminal.integrated.fontSize": 14,
+    "workbench.activityBar.visible": false,
+    "workbench.editor.openPositioning": "left",
+    "search.location": "sidebar",
+    "latex-workshop.showContextMenu": true,
+    "zenMode.restore": false,
+    "zenMode.centerLayout": false
 }

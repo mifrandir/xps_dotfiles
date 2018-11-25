@@ -2,21 +2,27 @@
     "telemetry.machineId": "7e7e30900b0dba6a5864663370066ccb2459feb84b8c8f83970d1a9d4e71981e",
     "openedPathsList": {
         "workspaces2": [
+            "file:///home/vrelda/projects/bwinf37",
             "file:///home/miltfra/documents",
-            "file:///home/vrelda/projects/Seminararbeit",
             "file:///home/miltfra/projects/stormbreaker",
+            "file:///home/miltfra/projects/python_ag",
+            "file:///home/vrelda/projects/Seminararbeit",
+            "file:///home/miltfra/documents/2018-11-22-sport",
+            "file:///home/miltfra/main_dotfiles",
+            "file:///home/miltfra/videos",
             "file:///home/vrelda/dotfiles",
             "file:///home/vrelda/projects/rechnungen",
             "file:///home/miltfra/projects/jannes_semi",
             "file:///home/miltfra/projects/semi",
-            "file:///home/vrelda/projects/bwinf37",
-            "file:///home/vrelda/documents/study",
             "file:///media/hdd1/documents/study",
             "file:///home/vrelda/.config",
             "file:///home/vrelda/source/issy",
             "file:///home/vrelda/projects/bwinf37/bwinf37-runde1"
         ],
         "files2": [
+            "file:///home/miltfra/projects/python_ag/mergesort.py",
+            "file:///home/miltfra/projects/Seminararbeit/Dokumente/Arbeit/2018-00%20Arbeit.tex",
+            "file:///home/miltfra/documents/info-lk/20181015.txt",
             "file:///home/miltfra/dotfiles/i3/startup.sh",
             "file:///home/miltfra/dotfiles/wpg/templates/bg.sh.base",
             "file:///home/miltfra/dotfiles/i3/bg.sh",
@@ -36,12 +42,12 @@
         "lastActiveWindow": {
             "folderUri": {
                 "$mid": 1,
-                "fsPath": "/home/miltfra/documents",
-                "external": "file:///home/miltfra/documents",
-                "path": "/home/miltfra/documents",
+                "fsPath": "/home/vrelda/projects/bwinf37",
+                "external": "file:///home/vrelda/projects/bwinf37",
+                "path": "/home/vrelda/projects/bwinf37",
                 "scheme": "file"
             },
-            "backupPath": "/home/miltfra/.config/Code/Backups/61943b5a098c224e2b464d34e598373d",
+            "backupPath": "/home/miltfra/.config/Code/Backups/c617db7a08545d660c033061322c40e6",
             "uiState": {
                 "mode": 1,
                 "x": 0,
@@ -388,7 +394,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarPosition",
-                                    "label": "&&Move Side Bar Right"
+                                    "label": "&&Move Side Bar Left"
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -400,7 +406,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleActivityBarVisibility",
-                                    "label": "Hide &&Activity Bar"
+                                    "label": "Show &&Activity Bar"
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
@@ -453,7 +459,7 @@
                                     "label": "&&Single"
                                 },
                                 {
-                                    "id": "workbench.action.editorLayoutCentered",
+                                    "id": "workbench.action.toggleCenteredLayout",
                                     "label": "&&Centered"
                                 },
                                 {
@@ -810,8 +816,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -974,7 +979,7 @@
                 "isNative": false
             },
             "workbench.view.extensions": {
-                "label": "Ctrl+Shift+X"
+                "label": "Alt+I"
             },
             "workbench.action.openGlobalKeybindings": {
                 "label": "Ctrl+K Ctrl+S",
@@ -989,7 +994,7 @@
                 "isNative": false
             },
             "workbench.action.closeActiveEditor": {
-                "label": "Ctrl+W"
+                "label": "Alt+Q"
             },
             "workbench.action.closeFolder": {
                 "label": "Ctrl+K F",
@@ -1057,7 +1062,7 @@
                 "label": "Alt+Down"
             },
             "editor.action.insertCursorAbove": {
-                "label": "Shift+Alt+Up"
+                "label": "Ctrl+Shift+Up"
             },
             "editor.action.insertCursorBelow": {
                 "label": "Shift+Alt+Down"
@@ -1072,7 +1077,7 @@
                 "label": "Ctrl+Shift+L"
             },
             "workbench.action.showCommands": {
-                "label": "Ctrl+Shift+P"
+                "label": "Shift+Alt+Enter"
             },
             "workbench.action.toggleFullScreen": {
                 "label": "F11"
@@ -1082,7 +1087,7 @@
                 "isNative": false
             },
             "workbench.action.toggleSidebarVisibility": {
-                "label": "Ctrl+Q"
+                "label": "Alt+Escape"
             },
             "workbench.action.toggleSidebarPosition": {
                 "label": "Ctrl+Shift+Q"
@@ -1106,7 +1111,7 @@
                 "label": "Shift+Alt+0"
             },
             "workbench.view.explorer": {
-                "label": "Ctrl+Shift+E"
+                "label": "Alt+Y"
             },
             "workbench.view.search": {
                 "label": "Ctrl+Shift+F"
@@ -1116,7 +1121,7 @@
                 "isNative": false
             },
             "workbench.view.debug": {
-                "label": "Ctrl+Shift+D"
+                "label": "Alt+U"
             },
             "workbench.action.output.toggleOutput": {
                 "label": "Ctrl+K Ctrl+H",
@@ -1150,10 +1155,10 @@
                 "label": "Ctrl+PageUp"
             },
             "workbench.action.openNextRecentlyUsedEditorInGroup": {
-                "label": "Ctrl+Tab"
+                "label": "Alt+Tab"
             },
             "workbench.action.openPreviousRecentlyUsedEditorInGroup": {
-                "label": "Ctrl+Shift+Tab"
+                "label": "Shift+Alt+Tab"
             },
             "workbench.action.focusFirstEditorGroup": {
                 "label": "Ctrl+1"
@@ -1187,7 +1192,7 @@
                 "isNative": false
             },
             "workbench.action.quickOpen": {
-                "label": "Ctrl+P"
+                "label": "Alt+Enter"
             },
             "workbench.action.gotoSymbol": {
                 "label": "Ctrl+Shift+O"

@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-wpg -nrs up2.png up2.png
+wpg -nrs up14.jpg up14.jpg

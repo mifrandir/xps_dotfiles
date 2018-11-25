@@ -10,13 +10,13 @@ margin = 5
 monitor = eDP1
 offset-y = 5%
 
-background = #000d1216
-foreground = #e9eef6
+background = #00171d26
+foreground = #f1f1f4
 
 line-size = 3
 
 border-size = 0
-border-color = #dd0d1216
+border-color = #dd171d26
 
 padding-left = 0
 padding-right = 0
@@ -46,14 +46,14 @@ cursor-scroll = ns-resize
 type = custom/script
 exec = ~/.config/polybar/updates-arch.sh
 interval = 600
-format-foreground = #85be8e
+format-foreground = #ee7b2f
 label-padding = 1
 
 [module/aur]
 type = custom/script
 exec = ~/.config/polybar/updates-arch-aur.sh
 interval = 600
-format-foreground = #738676
+format-foreground = #ee6533
 label-padding = 1
 
 [module/backlight]
@@ -61,7 +61,7 @@ type = internal/xbacklight
 enable-scroll = true
 label = %percentage%
 format =  <label>
-format-foreground = #927162
+format-foreground = #c83e2b
 format-padding = 1
 
 [module/battery]
@@ -72,24 +72,24 @@ adapter = ADP1
 poll-interval = 5
 label-charging =  %percentage%
 label-charging-padding = 1
-format-charging-foreground = #8E8878
+format-charging-foreground = #cf695a
 label-discharging =  %percentage%
 label-discharging-padding = 1
-format-discharging-foreground = #EC9C60
+format-discharging-foreground = #f0ae52
 label-full =  100
 label-full-padding =1
-format-full-foreground = #c9b88b
+format-full-foreground = #f07b63
 
 [module/pulseaudio]
 type = internal/pulseaudio
 sink = alsa_output.pci-0000_12_00.3.analog-stereo
 use-ui-max = true
 interval = 5
-format-volume-foreground = #40b293
+format-volume-foreground = #ee4832
 format-volume-padding = 1
 format-volume = <ramp-volume> <label-volume>
 format-muted-padding = 1
-format-muted-foreground = #3B806D
+format-muted-foreground = #ac3f31
 format-muted = <label-muted>
 label-volume = %percentage%
 label-muted =  --
@@ -102,13 +102,13 @@ ramp-volume-2 = 
 type = internal/xwindow
 label = %title:0:50:...%
 label-padding = 1
-format-foreground = #ffc767
+format-foreground = #f0e556
 
 [module/xkeyboard]
 type = internal/xkeyboard
 blacklist-0 = num lock
 
-format-foreground = #8E8878
+format-foreground = #cf695a
 
 label-layout =   %layout%
 label-layout-padding = 1
@@ -136,30 +136,30 @@ format-focused = <label-focused>
 label-focused = %name%
 label-focused-padding = 1
 label-focused-margin = 0
-label-focused-foreground = #e9eef6
+label-focused-foreground = #f1f1f4
 
 format-unfocused = <label-unfocused>
 label-unfocused = %name%
 label-unfocused-padding = 1
 label-unfocused-margin = 0
-label-unfocused-foreground = #3B806D
+label-unfocused-foreground = #ac3f31
 
 label-mode-padding = 0
 label-mode-margin = 0
-label-mode-foreground = #e9eef6
+label-mode-foreground = #f1f1f4
 label-mode = %mode%
 
 format-urgent = <label-urgent>
 label-urgent = %name%
 label-urgent-padding = 1
 label-urgent-margin = 0
-label-urgent-foreground = #927162
+label-urgent-foreground = #c83e2b
 
 format-visible = <label-visible>
 label-visible = %name%
 label-visible-padding = 1
 label-visible-margin = 0
-label-visible-foreground = #afb3b9
+label-visible-foreground = #c8c8cc
 
 [module/wlan]
 type = internal/network
@@ -169,8 +169,8 @@ label-connected =  %essid% %local_ip%
 format-connected-padding = 1
 
 format-disconnected =  --
-format-connected-foreground = #84a57f
-format-disconnected-foreground = #6E746D
+format-connected-foreground = #ee6d35
+format-disconnected-foreground = #c55935
 format-disconnected-padding = 1
 
 [module/eth]
@@ -181,14 +181,14 @@ label-connected =  %local_ip%
 format-connected-padding = 1
 
 format-disconnected =  --
-format-connected-foreground = #ffc767
-format-disconnected-foreground = #EC9C60
+format-connected-foreground = #f0e556
+format-disconnected-foreground = #f0ae52
 format-disconnected-padding = 1
 
 [module/date]
 type = internal/date
 interval = 1
-format-foreground = #afb3b9
+format-foreground = #c8c8cc
 date =" %m/%d"
 date-alt = " %Y/%m/%d"
 

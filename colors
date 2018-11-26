@@ -1,0 +1,11 @@
+#!/bin/bash
+
+for((i=0;i<=7;i++)); do
+    for((fbold=0;fbold<=1;fbold++)) do
+        for((j=0;j<=7;j++)); do
+		echo -en "\033[$((i+40))m\033[$((j+30+60*fbold))m ● "
+		echo -en "\033[0;$((i+100))m\033[$((j+30+60*fbold))m ● "
+       	done
+	echo -e "\033[0m"
+    done
+done

@@ -25,11 +25,11 @@ set $opt9 0
 set $workspace1 "1:web"
 set $workspace2 "2:shell"
 set $workspace3 "3:code"
-set $workspace4 "4:tools"
-set $workspace6 "6:other"
-set $workspace5 "5:other"
-set $workspace7 "7:other"
-set $workspace8 "8:other"
+set $workspace4 "4:other"
+set $workspace5 "5:chat"
+set $workspace6 "6:music"
+set $workspace7 "7:mail"
+set $workspace8 "8:libre"
 set $workspace9 "9:other"
 set $workspace10 "10:other"
 
@@ -46,12 +46,12 @@ bindsym $mod+$opt3                                  workspace $workspace3
 bindsym $mod+Shift+$opt3                            move container to workspace $workspace3
 bindsym $mod+$opt4                                  workspace $workspace4
 bindsym $mod+Shift+$opt4                            move container to workspace $workspace4
-bindsym $mod+$opt5                          workspace $workspace5
-bindsym $mod+Shift+$opt5                    move container to workspace $workspace5
+bindsym $mod+$opt5                                  workspace $workspace5
+bindsym $mod+Shift+$opt5                            move container to workspace $workspace5
 bindsym $mod+$opt6                                  workspace $workspace6
 bindsym $mod+Shift+$opt6                            move container to workspace $workspace6
-bindsym $mod+$opt7	                                  workspace $workspace7
-bindsym $mod+Shift+$opt7	                            move container to workspace $workspace7
+bindsym $mod+$opt7	                            workspace $workspace7
+bindsym $mod+Shift+$opt7	                    move container to workspace $workspace7
 bindsym $mod+$opt8                                  workspace $workspace8
 bindsym $mod+Shift+$opt8                            move container to workspace $workspace8
 bindsym $mod+$opt9                                  workspace $workspace9
@@ -144,9 +144,12 @@ hide_edge_borders smart
 
 for_window [class="Firefox"]                    move to workspace $workspace1
 assign [class="Code"]                           workspace $workspace3
-assign [class="Thunderbird"]                    workspace $workspace4
-for_window [class="Spotify"]                    move to workspace $workspace4    
-assign [class="^.*"]                            workspace $workspace5
+for_window [class="Spotify"]                    move to workspace $workspace6 
+assign [class="Thunderbird"]                    workspace $workspace7
+assign [class="libreoffice"]		        workspace $workspace8  
+assign [class="libreoffice-writer"]		workspace $workspace8
+assign [class="TelegramDesktop"] 		workspace $workspace5
+assign [class="^.*"]                            workspace $workspace4
 for_window [class="^.*"]                        border pixel 2
 for_window [class="^((?!Spotify).)*$"]		focus 
 focus_follows_mouse no

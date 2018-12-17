@@ -4,10 +4,10 @@ rofi.width:                          50
 rofi.lines:                          8
 rofi.columns:                        3
 rofi.font:                           Input Mono 12
-rofi.color-normal:                   #1a1d27, #fcfcff, #1a1d27, #ffe555, #1a1d27
-rofi.color-urgent:                   #1a1d27, #292e3f, #c8c8cc, #ff4428, #292e3f
-rofi.color-active:                   #1a1d27, #292e3f, #c8c8cc, #ff4428, #292e3f
-rofi.color-window:                   #1a1d27, #ff4428, #ff7a61
+rofi.color-normal:                   #1a1d27, #ffffff, #1a1d27, #d9acff, #1a1d27
+rofi.color-urgent:                   #1a1d27, #292e3f, #ffffff, #ffe062, #292e3f
+rofi.color-active:                   #1a1d27, #292e3f, #ffffff, #ffe062, #292e3f
+rofi.color-window:                   #1a1d27, #ffe062, #5bffff
 rofi.bw:                             2
 rofi.location:                       2
 rofi.padding:                        10

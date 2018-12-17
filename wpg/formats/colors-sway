@@ -1,21 +1,21 @@
-set $wallpaper up14.jpg
+set $wallpaper theme_lucy.jpg
 
 set $background #1a1d27
-set $foreground #fcfcff
+set $foreground #ffffff
 
 set $color0 #1a1d27
-set $color1 #c83e2b
-set $color2 #ac3f31
-set $color3 #f0ae52
-set $color4 #c55935
-set $color5 #cf695a
-set $color6 #ee6533
-set $color7 #c8c8cc
+set $color1 #fdad5d
+set $color2 #e8d56d
+set $color3 #af98e6
+set $color4 #76c5a4
+set $color5 #56c9db
+set $color6 #fb7da7
+set $color7 #ffffff
 set $color8 #292e3f
-set $color9 #ff4428
-set $color10 #ee4631
-set $color11 #ffe555
-set $color12 #ff6b34
-set $color13 #ff7a61
-set $color14 #ff7a2f
-set $color15 #fcfcff
+set $color9 #ffe062
+set $color10 #ffff77
+set $color11 #d9acff
+set $color12 #84ffd8
+set $color13 #5bffff
+set $color14 #ff8ad0
+set $color15 #ffffff

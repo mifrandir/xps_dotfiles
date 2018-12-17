@@ -59,7 +59,7 @@
         "command": "-workbench.action.closeActiveEditor"
     },
     {
-        "key": "shift+alt+enter",
+        "key": "ctrl+alt+enter",
         "command": "workbench.action.showCommands"
     },
     {
@@ -134,5 +134,37 @@
         "key": "ctrl+shift+tab",
         "command": "-workbench.action.quickOpenNavigatePreviousInEditorPicker",
         "when": "inEditorsPicker && inQuickOpen"
+    },
+    {
+        "key": "alt+'",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "-workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+alt+'",
+        "command": "workbench.action.terminal.new"
+    },
+    {
+        "key": "ctrl+shift+`",
+        "command": "-workbench.action.terminal.new"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "code-runner.run"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-code-runner.run"
+    },
+    {
+        "key": "alt+space",
+        "command": "extension.CompileRun"
+    },
+    {
+        "key": "f6",
+        "command": "-extension.CompileRun"
     }
 ]

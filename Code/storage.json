@@ -2,16 +2,22 @@
     "telemetry.machineId": "7e7e30900b0dba6a5864663370066ccb2459feb84b8c8f83970d1a9d4e71981e",
     "openedPathsList": {
         "workspaces2": [
-            "file:///home/vrelda/projects/Seminararbeit",
-            "file:///home/vrelda/dotfiles",
-            "file:///home/vrelda/projects/bwinf37",
+            "file:///home/miltfra/documents/2018-12-17-abizeitung/korrektur",
+            "file:///home/miltfra/documents/2018-12-17-abizeitung",
+            "file:///home/miltfra/downloads/abitexte",
+            "file:///home/miltfra/projects/TSP",
             "file:///home/miltfra/documents",
             "file:///home/miltfra/projects/stormbreaker",
             "file:///home/miltfra/projects/python_ag",
+            "file:///home/miltfra/projects/advent_of_code",
+            "file:///home/vrelda/projects/Seminararbeit",
+            "file:///home/miltfra/projects/experimental",
+            "file:///home/vrelda/projects/bwinf37",
+            "file:///home/miltfra/projects/haskell",
+            "file:///home/vrelda/dotfiles",
             "file:///home/miltfra/documents/2018-11-22-sport",
             "file:///home/miltfra/main_dotfiles",
             "file:///home/miltfra/videos",
-            "file:///home/vrelda/projects/rechnungen",
             "file:///home/miltfra/projects/jannes_semi",
             "file:///home/miltfra/projects/semi",
             "file:///media/hdd1/documents/study",
@@ -20,6 +26,15 @@
             "file:///home/vrelda/projects/bwinf37/bwinf37-runde1"
         ],
         "files2": [
+            "file:///home/miltfra/documents/2018-12-17-abizeitung/agenda.tex",
+            "file:///home/miltfra/documents/2018-12-17-abizeitung/abitexte/lucasg-jonasw.txt",
+            "file:///home/miltfra/dotfiles/wpg/templates/i3.base",
+            "file:///home/miltfra/projects/stormbreaker/tsp.cpp",
+            "file:///home/miltfra/usb/2018-12-12-ag/solution.py",
+            "file:///home/miltfra/.vscode/extensions/juliettepretot.lucy-vscode-2.6.3/src/colors.mjs",
+            "file:///home/miltfra/projects/advent_of_code/2018/day-1.hs",
+            "file:///home/miltfra/projects/hanoi.py",
+            "file:///home/miltfra/hscheatsheet",
             "file:///home/miltfra/projects/bwinf37/bwinf37-runde1/a5-Widerstand/out",
             "file:///home/miltfra/projects/python_ag/mergesort.py",
             "file:///home/miltfra/projects/Seminararbeit/Dokumente/Arbeit/2018-00%20Arbeit.tex",
@@ -43,12 +58,12 @@
         "lastActiveWindow": {
             "folderUri": {
                 "$mid": 1,
-                "fsPath": "/home/vrelda/projects/bwinf37",
-                "external": "file:///home/vrelda/projects/bwinf37",
-                "path": "/home/vrelda/projects/bwinf37",
+                "fsPath": "/home/miltfra/documents/2018-12-17-abizeitung/korrektur",
+                "external": "file:///home/miltfra/documents/2018-12-17-abizeitung/korrektur",
+                "path": "/home/miltfra/documents/2018-12-17-abizeitung/korrektur",
                 "scheme": "file"
             },
-            "backupPath": "/home/miltfra/.config/Code/Backups/c617db7a08545d660c033061322c40e6",
+            "backupPath": "/home/miltfra/.config/Code/Backups/ca8556e94130aeb4b561f6e68a1ba6db",
             "uiState": {
                 "mode": 1,
                 "x": 0,
@@ -458,10 +473,6 @@
                                 {
                                     "id": "workbench.action.editorLayoutSingle",
                                     "label": "&&Single"
-                                },
-                                {
-                                    "id": "workbench.action.toggleCenteredLayout",
-                                    "label": "&&Centered"
                                 },
                                 {
                                     "id": "workbench.action.editorLayoutTwoColumns",
@@ -954,9 +965,6 @@
             "workbench.action.files.newUntitledFile": {
                 "label": "Ctrl+N"
             },
-            "workbench.action.newWindow": {
-                "label": "Ctrl+Shift+N"
-            },
             "workbench.action.files.openFile": {
                 "label": "Ctrl+O"
             },
@@ -1051,12 +1059,6 @@
             "editor.action.smartSelect.shrink": {
                 "label": "Shift+Alt+Left"
             },
-            "editor.action.copyLinesUpAction": {
-                "label": "Ctrl+Shift+Alt+Up"
-            },
-            "editor.action.copyLinesDownAction": {
-                "label": "Ctrl+Shift+Alt+Down"
-            },
             "editor.action.moveLinesUpAction": {
                 "label": "Alt+Up"
             },
@@ -1079,7 +1081,7 @@
                 "label": "Ctrl+Shift+L"
             },
             "workbench.action.showCommands": {
-                "label": "Shift+Alt+Enter"
+                "label": "Ctrl+Alt+Enter"
             },
             "workbench.action.toggleFullScreen": {
                 "label": "F11"
@@ -1133,8 +1135,7 @@
                 "label": "Ctrl+Shift+Y"
             },
             "workbench.action.terminal.toggleTerminal": {
-                "label": "Ctrl+`",
-                "isNative": false
+                "label": "Alt+'"
             },
             "workbench.actions.view.problems": {
                 "label": "Ctrl+Shift+M"
@@ -1202,9 +1203,6 @@
             "workbench.action.showAllSymbols": {
                 "label": "Ctrl+T"
             },
-            "editor.action.goToDeclaration": {
-                "label": "F12"
-            },
             "editor.action.goToImplementation": {
                 "label": "Ctrl+F12"
             },
@@ -1242,8 +1240,7 @@
                 "label": "Shift+F9"
             },
             "workbench.action.terminal.new": {
-                "label": "Ctrl+Shift+`",
-                "isNative": false
+                "label": "Ctrl+Alt+'"
             },
             "workbench.action.terminal.split": {
                 "label": "Ctrl+\\",

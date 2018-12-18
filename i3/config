@@ -120,10 +120,10 @@ mode $modepower {
 default_border pixel 2
 set $c1 #ffffff
 set $c2 #ffffff 
-set $c3 #fdad5d
-set $c4 #ffe062 
+set $c3 #56c9db
+set $c4 #56c9db 
 set $c5 #292e3f
-set $c6 #ffff77
+set $c6 #76c5a4
 set $c7 #1a1d27
 
 # class                 border  backgr. text indicator child_border

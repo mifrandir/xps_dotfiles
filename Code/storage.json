@@ -2,14 +2,15 @@
     "telemetry.machineId": "7e7e30900b0dba6a5864663370066ccb2459feb84b8c8f83970d1a9d4e71981e",
     "openedPathsList": {
         "workspaces2": [
+            "file:///home/miltfra/documents/2019-01-15-personal-statement",
+            "file:///home/miltfra/documents",
+            "file:///home/miltfra/projects/advent_of_code",
+            "file:///home/miltfra/projects/TSP",
+            "file:///home/miltfra/projects/stormbreaker",
             "file:///home/miltfra/documents/2018-12-17-abizeitung/korrektur",
             "file:///home/miltfra/documents/2018-12-17-abizeitung",
             "file:///home/miltfra/downloads/abitexte",
-            "file:///home/miltfra/projects/TSP",
-            "file:///home/miltfra/documents",
-            "file:///home/miltfra/projects/stormbreaker",
             "file:///home/miltfra/projects/python_ag",
-            "file:///home/miltfra/projects/advent_of_code",
             "file:///home/vrelda/projects/Seminararbeit",
             "file:///home/miltfra/projects/experimental",
             "file:///home/vrelda/projects/bwinf37",
@@ -58,12 +59,12 @@
         "lastActiveWindow": {
             "folderUri": {
                 "$mid": 1,
-                "fsPath": "/home/miltfra/documents/2018-12-17-abizeitung/korrektur",
-                "external": "file:///home/miltfra/documents/2018-12-17-abizeitung/korrektur",
-                "path": "/home/miltfra/documents/2018-12-17-abizeitung/korrektur",
+                "fsPath": "/home/miltfra/projects/advent_of_code",
+                "external": "file:///home/miltfra/projects/advent_of_code",
+                "path": "/home/miltfra/projects/advent_of_code",
                 "scheme": "file"
             },
-            "backupPath": "/home/miltfra/.config/Code/Backups/ca8556e94130aeb4b561f6e68a1ba6db",
+            "backupPath": "/home/miltfra/.config/Code/Backups/3b95be793812832ad1b23ebe458c0633",
             "uiState": {
                 "mode": 1,
                 "x": 0,

@@ -2,22 +2,22 @@ const char *colorname[] = {
 
   /* 8 normal colors */
   [0] = "#1a1d27", /* black   */
-  [1] = "#fdad5d", /* red     */
-  [2] = "#e8d56d", /* green   */
-  [3] = "#af98e6", /* yellow  */
-  [4] = "#76c5a4", /* blue    */
-  [5] = "#56c9db", /* magenta */
-  [6] = "#fb7da7", /* cyan    */
+  [1] = "#fb7da7", /* red     */
+  [2] = "#76c5a4", /* green   */
+  [3] = "#e8d56d", /* yellow  */
+  [4] = "#56c9db", /* blue    */
+  [5] = "#af98e6", /* magenta */
+  [6] = "#fdad5d", /* cyan    */
   [7] = "#ffffff", /* white   */
 
   /* 8 bright colors */
   [8]  = "#292e3f",  /* black   */
-  [9]  = "#ffe062",  /* red     */
-  [10] = "#ffff77", /* green   */
-  [11] = "#d9acff", /* yellow  */
-  [12] = "#84ffd8", /* blue    */
-  [13] = "#5bffff", /* magenta */
-  [14] = "#ff8ad0", /* cyan    */
+  [9]  = "#fb7da7",  /* red     */
+  [10] = "#76c5a4", /* green   */
+  [11] = "#e8d56d", /* yellow  */
+  [12] = "#56c9db", /* blue    */
+  [13] = "#af98e6", /* magenta */
+  [14] = "#fdad5d", /* cyan    */
   [15] = "#ffffff", /* white   */
 
   /* special colors */

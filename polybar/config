@@ -46,14 +46,14 @@ cursor-scroll = ns-resize
 type = custom/script
 exec = ~/.config/polybar/updates-arch.sh
 interval = 600
-format-foreground = #ff8ad0
+format-foreground = #fdad5d
 label-padding = 1
 
 [module/aur]
 type = custom/script
 exec = ~/.config/polybar/updates-arch-aur.sh
 interval = 600
-format-foreground = #fb7da7
+format-foreground = #fdad5d
 label-padding = 1
 
 [module/backlight]
@@ -61,7 +61,7 @@ type = internal/xbacklight
 enable-scroll = true
 label = %percentage%
 format =  <label>
-format-foreground = #fdad5d
+format-foreground = #fb7da7
 format-padding = 1
 
 [module/battery]
@@ -72,24 +72,24 @@ adapter = ADP1
 poll-interval = 5
 label-charging =  %percentage%
 label-charging-padding = 1
-format-charging-foreground = #56c9db
+format-charging-foreground = #af98e6
 label-discharging =  %percentage%
 label-discharging-padding = 1
-format-discharging-foreground = #af98e6
+format-discharging-foreground = #e8d56d
 label-full =  100
 label-full-padding =1
-format-full-foreground = #5bffff
+format-full-foreground = #af98e6
 
 [module/pulseaudio]
 type = internal/pulseaudio
 sink = alsa_output.pci-0000_12_00.3.analog-stereo
 use-ui-max = true
 interval = 5
-format-volume-foreground = #ffff77
+format-volume-foreground = #76c5a4
 format-volume-padding = 1
 format-volume = <ramp-volume> <label-volume>
 format-muted-padding = 1
-format-muted-foreground = #e8d56d
+format-muted-foreground = #76c5a4
 format-muted = <label-muted>
 label-volume = %percentage%
 label-muted =  --
@@ -102,13 +102,13 @@ ramp-volume-2 = 
 type = internal/xwindow
 label = %title:0:50:...%
 label-padding = 1
-format-foreground = #d9acff
+format-foreground = #e8d56d
 
 [module/xkeyboard]
 type = internal/xkeyboard
 blacklist-0 = num lock
 
-format-foreground = #56c9db
+format-foreground = #af98e6
 
 label-layout =   %layout%
 label-layout-padding = 1
@@ -142,7 +142,7 @@ format-unfocused = <label-unfocused>
 label-unfocused = %name%
 label-unfocused-padding = 1
 label-unfocused-margin = 0
-label-unfocused-foreground = #e8d56d
+label-unfocused-foreground = #56c9db
 
 label-mode-padding = 0
 label-mode-margin = 0
@@ -153,7 +153,7 @@ format-urgent = <label-urgent>
 label-urgent = %name%
 label-urgent-padding = 1
 label-urgent-margin = 0
-label-urgent-foreground = #fdad5d
+label-urgent-foreground = #fb7da7
 
 format-visible = <label-visible>
 label-visible = %name%
@@ -169,8 +169,8 @@ label-connected =  %essid% %local_ip%
 format-connected-padding = 1
 
 format-disconnected =  --
-format-connected-foreground = #84ffd8
-format-disconnected-foreground = #76c5a4
+format-connected-foreground = #56c9db
+format-disconnected-foreground = #56c9db
 format-disconnected-padding = 1
 
 [module/eth]
@@ -181,8 +181,8 @@ label-connected =  %local_ip%
 format-connected-padding = 1
 
 format-disconnected =  --
-format-connected-foreground = #d9acff
-format-disconnected-foreground = #af98e6
+format-connected-foreground = #e8d56d
+format-disconnected-foreground = #e8d56d
 format-disconnected-padding = 1
 
 [module/date]

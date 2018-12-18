@@ -50,13 +50,13 @@ timeout = 4
 [urgency_normal]
 foreground = "#ffffff"
 background = "#1a1d27"
-frame_color = "#ffe062"
+frame_color = "#fb7da7"
 timeout = 6
 
 [urgency_critical]
 foreground = "#ffffff"
 background = "#1a1d27"
-frame_color = "#d9acff"
+frame_color = "#e8d56d"
 timeout = 8
 
 # Every section that isn't one of the above is interpreted as a rules to

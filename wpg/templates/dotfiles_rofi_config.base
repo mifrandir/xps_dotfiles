@@ -1,17 +1,17 @@
 rofi.modi:                           window,run,ssh
 rofi.m:				     0
 rofi.width:                          50
-rofi.lines:                          8
+rofi.lines:                          12
 rofi.columns:                        3
 rofi.font:                           Input Mono 12
 rofi.color-normal:                   #<COLOR0>, #<COLOR15>, #<COLOR0>, #<COLOR11>, #<COLOR0>
-rofi.color-urgent:                   #<COLOR0>, #<COLOR8>, #<COLOR7>, #<COLOR9>, #<COLOR8>
-rofi.color-active:                   #<COLOR0>, #<COLOR8>, #<COLOR7>, #<COLOR9>, #<COLOR8>
-rofi.color-window:                   #<COLOR0>, #<COLOR9>, #<COLOR13>
+rofi.color-urgent:                   #<COLOR0>, #<COLOR8>, #<COLOR7>, #<COLOR4>, #<COLOR8>
+rofi.color-active:                   #<COLOR0>, #<COLOR8>, #<COLOR7>, #<COLOR4>, #<COLOR8>
+rofi.color-window:                   #<COLOR0>, #<COLOR4>, #<COLOR13>
 rofi.bw:                             2
-rofi.location:                       2
+rofi.location:                       0
 rofi.padding:                        10
-rofi.yoffset:                        35
+rofi.yoffset:                        0
 rofi.xoffset:                        0
 rofi.fixed-num-lines:                true
 rofi.terminal:                       rofi-sensible-terminal

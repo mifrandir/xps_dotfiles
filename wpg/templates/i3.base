@@ -119,9 +119,9 @@ mode $modepower {
 }
 default_border pixel 2
 set $c1 #<COLOR7>
-set $c2 #<COLOR15> 
-set $c3 #<COLOR1>
-set $c4 #<COLOR9> 
+set $c2 #<COLOR7> 
+set $c3 #<COLOR4>
+set $c4 #<COLOR12> 
 set $c5 #<COLOR8>
 set $c6 #<COLOR10>
 set $c7 #<COLOR0>

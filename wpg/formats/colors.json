@@ -1,28 +1,28 @@
 {
-    "wallpaper": "theme_lucy.jpg",
+    "wallpaper": "sky1.jpg",
     "alpha": "100",
 
     "special": {
-        "background": "#1a1d27",
-        "foreground": "#ffffff",
-        "cursor": "#ffffff"
+        "background": "#1f2230",
+        "foreground": "#fff7ff",
+        "cursor": "#fff7ff"
     },
     "colors": {
-        "color0": "#1a1d27",
-        "color1": "#fb7da7",
-        "color2": "#76c5a4",
-        "color3": "#e8d56d",
-        "color4": "#56c9db",
-        "color5": "#af98e6",
-        "color6": "#fdad5d",
-        "color7": "#ffffff",
-        "color8": "#292e3f",
-        "color9": "#fb7da7",
-        "color10": "#76c5a4",
-        "color11": "#e8d56d",
-        "color12": "#56c9db",
-        "color13": "#af98e6",
-        "color14": "#fdad5d",
-        "color15": "#ffffff"
+        "color0": "#1f2230",
+        "color1": "#A490B4",
+        "color2": "#A19CCB",
+        "color3": "#DBA6B5",
+        "color4": "#6F85B6",
+        "color5": "#9578A2",
+        "color6": "#678CD0",
+        "color7": "#ddd1dc",
+        "color8": "#2e3348",
+        "color9": "#d7a6fe",
+        "color10": "#beb3ff",
+        "color11": "#ffbee0",
+        "color12": "#7da5ff",
+        "color13": "#c889e4",
+        "color14": "#71b0ff",
+        "color15": "#fff7ff"
     }
 }

@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-wpg -nrs theme_lucy.jpg theme_lucy.jpg
+wpg -nrs sky1.jpg sky1.jpg

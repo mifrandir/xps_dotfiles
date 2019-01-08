@@ -1,6 +1,6 @@
 {
     "window.menuBarVisibility": "hidden",
-    "workbench.iconTheme": "file-icons",
+    "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.showWelcomeMessage": false,
     "editor.fontFamily": "Fira Code",
     "editor.fontSize": 20,

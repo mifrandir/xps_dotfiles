@@ -118,13 +118,13 @@ mode $modepower {
         bindsym Return mode "default"
 }
 default_border pixel 2
-set $c1 #ffffff
-set $c2 #ffffff 
-set $c3 #56c9db
-set $c4 #56c9db 
-set $c5 #292e3f
-set $c6 #76c5a4
-set $c7 #1a1d27
+set $c1 #ddd1dc
+set $c2 #ddd1dc 
+set $c3 #6F85B6
+set $c4 #7da5ff 
+set $c5 #2e3348
+set $c6 #beb3ff
+set $c7 #1f2230
 
 # class                 border  backgr. text indicator child_border
 client.focused          $c4     $c4     $c7  $c4       $c4

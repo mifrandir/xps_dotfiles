@@ -1,0 +1,28 @@
+{
+    "wallpaper": "sky1.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#1f2230",
+        "foreground": "#fff7ff",
+        "cursor": "#fff7ff"
+    },
+    "colors": {
+        "color0": "#1f2230",
+        "color1": "#A490B4",
+        "color2": "#A19CCB",
+        "color3": "#DBA6B5",
+        "color4": "#6F85B6",
+        "color5": "#9578A2",
+        "color6": "#678CD0",
+        "color7": "#ddd1dc",
+        "color8": "#2e3348",
+        "color9": "#d7a6fe",
+        "color10": "#beb3ff",
+        "color11": "#ffbee0",
+        "color12": "#7da5ff",
+        "color13": "#c889e4",
+        "color14": "#71b0ff",
+        "color15": "#fff7ff"
+    }
+}

@@ -1,0 +1,16 @@
+[
+	{
+		"name": "Blog",
+		"rootPath": "/home/miltfra/projects/Blog",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "JASS",
+		"rootPath": "/home/miltfra/projects/JASS",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	}
+]

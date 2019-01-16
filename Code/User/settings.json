@@ -1,5 +1,5 @@
 {
-    "window.menuBarVisibility": "hidden",
+    "window.menuBarVisibility": "toggle",
     "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.showWelcomeMessage": false,
     "editor.fontFamily": "Fira Code",
@@ -80,6 +80,7 @@
         "#88898f",
         "#5e6173"
     ],
-    "window.titleBarStyle": "native"
+    "window.titleBarStyle": "native",
+    "python.formatting.provider": "yapf"
     
 }

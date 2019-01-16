@@ -166,5 +166,13 @@
     {
         "key": "f6",
         "command": "-extension.CompileRun"
+    },
+    {
+        "key": "shift+alt+enter",
+        "command": "projectManager.listProjects"
+    },
+    {
+        "key": "shift+alt+p",
+        "command": "-projectManager.listProjects"
     }
 ]

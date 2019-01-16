@@ -7,8 +7,22 @@
 		"enabled": true
 	},
 	{
-		"name": "JASS",
-		"rootPath": "/home/miltfra/projects/JASS",
+		"name": "OASS",
+		"rootPath": "/home/miltfra/projects/OASS",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "Notes",
+		"rootPath": "/home/miltfra/.notable/notes",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "Go",
+		"rootPath": "/home/miltfra/go",
 		"paths": [],
 		"group": "",
 		"enabled": true

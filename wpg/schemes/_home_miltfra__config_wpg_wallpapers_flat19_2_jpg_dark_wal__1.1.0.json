@@ -1,0 +1,28 @@
+{
+    "wallpaper": "flat19.2.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#181a1f",
+        "foreground": "#dffcf7",
+        "cursor": "#dffcf7"
+    },
+    "colors": {
+        "color0": "#181a1f",
+        "color1": "#435859",
+        "color2": "#4A746C",
+        "color3": "#61857D",
+        "color4": "#4A5F61",
+        "color5": "#41635E",
+        "color6": "#548178",
+        "color7": "#a7bdb9",
+        "color8": "#292c35",
+        "color9": "#4d7b7d",
+        "color10": "#53a394",
+        "color11": "#6fbbaa",
+        "color12": "#558489",
+        "color13": "#498b81",
+        "color14": "#5fb5a4",
+        "color15": "#dffcf7"
+    }
+}

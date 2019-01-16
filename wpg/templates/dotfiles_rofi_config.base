@@ -5,9 +5,9 @@ rofi.lines:                          12
 rofi.columns:                        3
 rofi.font:                           Input Mono 12
 rofi.color-normal:                   #<COLOR0>, #<COLOR15>, #<COLOR0>, #<COLOR11>, #<COLOR0>
-rofi.color-urgent:                   #<COLOR0>, #<COLOR8>, #<COLOR7>, #<COLOR4>, #<COLOR8>
-rofi.color-active:                   #<COLOR0>, #<COLOR8>, #<COLOR7>, #<COLOR4>, #<COLOR8>
-rofi.color-window:                   #<COLOR0>, #<COLOR4>, #<COLOR13>
+rofi.color-urgent:                   #<COLOR0>, #<COLOR8>, #<COLOR7>, #<COLOR1>, #<COLOR8>
+rofi.color-active:                   #<COLOR0>, #<COLOR8>, #<COLOR7>, #<COLOR1>, #<COLOR8>
+rofi.color-window:                   #<COLOR0>, #<COLOR1>, #<COLOR13>
 rofi.bw:                             2
 rofi.location:                       0
 rofi.padding:                        10

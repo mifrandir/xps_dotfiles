@@ -1,8 +1,8 @@
-font pango:Input Mono 11
+font pango:Input Mono 14
 ### VARIABLES ###
 # Mod Key
 set $mod Mod4
-set $terminal urxvt 
+set $terminal termite 
 set $wallpaper bg.jpg
 
 # VIM directions
@@ -22,16 +22,16 @@ set $opt8 9
 set $opt9 0
 
 # Workspaces
-set $workspace1 "1:web"
-set $workspace2 "2:shell"
-set $workspace3 "3:code"
-set $workspace4 "4:other"
-set $workspace5 "5:chat"
-set $workspace6 "6:music"
-set $workspace7 "7:mail"
-set $workspace8 "8:libre"
-set $workspace9 "9:other"
-set $workspace10 "10:other"
+set $workspace1 "1:"
+set $workspace2 "2:"
+set $workspace3 "3:"
+set $workspace4 "4:"
+set $workspace5 "5:"
+set $workspace6 "6:"
+set $workspace7 "7:"
+set $workspace8 "8:"
+set $workspace9 "9:"
+set $workspace10 "10:"
 
 # Modes
 set $modepower ""
@@ -56,6 +56,10 @@ bindsym $mod+$opt8                                  workspace $workspace8
 bindsym $mod+Shift+$opt8                            move container to workspace $workspace8
 bindsym $mod+$opt9                                  workspace $workspace9
 bindsym $mod+Shift+$opt9                            move container to workspace $workspace9
+bindsym $mod+Ctrl+$left resize shrink width 20 px 
+bindsym $mod+Ctrl+$up resize grow height 20 px 
+bindsym $mod+Ctrl+$down resize shrink height 20 px 
+bindsym $mod+Ctrl+$right resize grow width 20 px 
 
 # Letters
 bindsym $mod+a                                  move workspace to output left
@@ -86,23 +90,12 @@ bindsym $mod+$up                                focus up
 bindsym $mod+Shift+$up                          move up
 bindsym $mod+$right                             focus right
 bindsym $mod+Shift+$right                       move right
+bindsym $mod+s					floating toggle
 
 bindsym $mod+space                              focus mode_toggle
 bindsym $mod+Shift+space                        floating toggle
 
 bindsym $mod+Escape                             exec fish -c "notify-send 'Mode Changed' 'Power: lock | exit | shutdown | reboot'", mode $modepower
-
-bindsym XF86AudioRaiseVolume                    exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
-bindsym XF86AudioLowerVolume                    exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
-bindsym XF86AudioMute                           exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
-
-bindsym XF86MonBrightnessUp                     exec xbacklight -inc 20 # increase screen brightness
-bindsym XF86MonBrightnessDown                   exec xbacklight -dec 20 # decrease screen brightness
-bindsym XF86TouchpadToggle                      exec ~/.i3/toggletouchpad.sh # toggle touchpad
-bindsym XF86AudioPlay                           exec playerctl play
-bindsym XF86AudioPause                          exec playerctl pause
-bindsym XF86AudioNext                           exec playerctl next
-bindsym XF86AudioPrev                           exec playerctl previous
 
 bindsym $mod+Tab exec rofi -show window -show-icons -drun-icon-theme Paper -auto-select
 bindsym $mod+Shift+Tab workspace next
@@ -118,20 +111,19 @@ mode $modepower {
         bindsym Return mode "default"
 }
 default_border pixel 2
-set $c1 #ddd1dc
-set $c2 #ddd1dc 
-set $c3 #6F85B6
-set $c4 #7da5ff 
-set $c5 #2e3348
-set $c6 #beb3ff
-set $c7 #1f2230
+set $c0 #0b1014
+set $c8 #18242e
+set $c1 #af3c3c 
+set $c9 #f23e3e
+set $c7 #eaeaea 
+set $c15 #ffffff
 
 # class                 border  backgr. text indicator child_border
-client.focused          $c4     $c4     $c7  $c4       $c4
-client.focused_inactive $c5     $c3     $c1  $c5       $c5
-client.unfocused        $c5     $c3     $c1  $c5       $c5
-client.urgent           $c6     $c6     $c5  $c6       $c6
-client.placeholder      $c5     $c5     $c1  $c5       $c5
+client.focused          $c1     $c0     $c15 $c1       $c1
+client.focused_inactive $c8     $c0     $c15 $c1       $c8
+client.unfocused        $c0     $c0     $c2  $c1       $c0
+client.urgent           $c15    $c0     $c2  $c1       $c15
+client.placeholder      $c0     $c0     $c2  $c1       $c0
 
 client.background       $c0
 
@@ -144,14 +136,10 @@ hide_edge_borders smart
 
 for_window [class="Firefox"]                    move to workspace $workspace1
 assign [class="Code"]                           workspace $workspace3
-for_window [class="Spotify"]                    move to workspace $workspace6 
-assign [class="Thunderbird"]                    workspace $workspace7
-assign [class="libreoffice"]		        workspace $workspace8  
 assign [class="libreoffice-writer"]		workspace $workspace8
-assign [class="TelegramDesktop"] 		workspace $workspace5
-assign [class="^.*"]                            workspace $workspace4
+assign [class="TelegramDesktop"] 		workspace $workspace4
+assign [class="^.*"]                            workspace $workspace5
 for_window [class="^.*"]                        border pixel 2
-for_window [class="^((?!Spotify).)*$"]		focus 
 focus_follows_mouse no
 ### ASSIGNS
 workspace $workspace1 output $lmonitor

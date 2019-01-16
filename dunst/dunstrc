@@ -42,21 +42,21 @@ history = ctrl+grave
 context = ctrl+shift+period
 
 [urgency_low]
-foreground = "#fff7ff"
-background = "#1f2230"
-frame_color = "#2e3348"
+foreground = "#ffffff"
+background = "#0b1014"
+frame_color = "#18242e"
 timeout = 4
 
 [urgency_normal]
-foreground = "#fff7ff"
-background = "#1f2230"
-frame_color = "#d7a6fe"
+foreground = "#ffffff"
+background = "#0b1014"
+frame_color = "#f23e3e"
 timeout = 6
 
 [urgency_critical]
-foreground = "#fff7ff"
-background = "#1f2230"
-frame_color = "#ffbee0"
+foreground = "#ffffff"
+background = "#0b1014"
+frame_color = "#ffe14e"
 timeout = 8
 
 # Every section that isn't one of the above is interpreted as a rules to

@@ -43,7 +43,7 @@
             "percent": 0.2,
             "swallows": [
                {
-               "class": "^URxvt$",
+               "class": "^Termite$",
                "instance": "^htop$"
                //"title": "^htop$"
                // "transient_for": "^$"
@@ -76,8 +76,8 @@
             "percent": 0.5,
             "swallows": [
                {
-               "class": "^URxvt$",
-               "instance": "^urxvt$"
+               "class": "^Termite$",
+               "instance": "^terminal$"
                // "title": "^i3\\-save\\-tree\\ \\ \\/home\\/vrelda$",
                // "transient_for": "^$"
                }
@@ -98,8 +98,8 @@
             "percent": 0.5,
             "swallows": [
                {
-                "class": "^URxvt$",
-               "instance": "^urxvt$"
+                "class": "^Termite$",
+               "instance": "^terminal$"
                // "title": "^fish\\ \\ \\/home\\/vrelda$",
                // "transient_for": "^$"
                }

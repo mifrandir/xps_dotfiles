@@ -2,7 +2,7 @@
 width = 100%
 offset-x = 5%
 override-redirect = false
-height = 35
+height = 30
 radius = 0
 fixed-center = true
 bottom = false
@@ -10,13 +10,13 @@ margin = 5
 monitor = eDP1
 offset-y = 5%
 
-background = #001f2230
-foreground = #fff7ff
+background = #0b1014
+foreground = #ffffff
 
 line-size = 3
 
 border-size = 0
-border-color = #dd1f2230
+border-color = #dd0b1014
 
 padding-left = 0
 padding-right = 0
@@ -27,14 +27,14 @@ module-padding-left = 1
 module-padding-right = 1
 
 
-font-0 = Input Mono:style=Bold:pixelsize=14;3
-font-1 = Font Awesome 5 Free:pixelsize=14;3
-font-2 = Font Awesome 5 Free:style=Solid:pixelsize=14;3
-font-3 = Font Awesome 5 Brands:pixelsize=14;3
+font-0 = M+ P:pixelsize=12;3
+font-1 = Font Awesome 5 Free:pixelsize=12;3
+font-2 = Font Awesome 5 Free:style=Solid:pixelsize=12;3
+font-3 = Font Awesome 5 Brands:pixelsize=12;3
 
-modules-left = date pacman aur
-modules-center = i3 
-modules-right = pulseaudio xkeyboard backlight wlan eth battery 
+modules-left = i3
+modules-center = date 
+modules-right = wlan pacman aur pulseaudio xkeyboard backlight battery 
 
 tray-position =
 tray-padding = 1
@@ -46,23 +46,23 @@ cursor-scroll = ns-resize
 type = custom/script
 exec = ~/.config/polybar/updates-arch.sh
 interval = 600
-format-foreground = #71b0ff
-label-padding = 1
+format-background = #18242e
+label-padding= 3
 
 [module/aur]
 type = custom/script
 exec = ~/.config/polybar/updates-arch-aur.sh
 interval = 600
-format-foreground = #678CD0
-label-padding = 1
+format-background = #18242e
+label-padding = 3
 
 [module/backlight]
 type = internal/xbacklight
 enable-scroll = true
 label = %percentage%
 format =  <label>
-format-foreground = #A490B4
-format-padding = 1
+format-background = #18242e
+format-padding = 3
 
 [module/battery]
 type = internal/battery
@@ -71,25 +71,26 @@ battery = BAT0
 adapter = ADP1
 poll-interval = 5
 label-charging =  %percentage%
-label-charging-padding = 1
-format-charging-foreground = #9578A2
+label-charging-padding = 3
+format-charging-background = #6D8D6D
 label-discharging =  %percentage%
-label-discharging-padding = 1
-format-discharging-foreground = #DBA6B5
+label-discharging-padding = 3
+format-discharging-background = #af3c3c
 label-full =  100
-label-full-padding =1
-format-full-foreground = #c889e4
+label-full-padding =3
+format-full-background = #18242e
 
 [module/pulseaudio]
 type = internal/pulseaudio
 sink = alsa_output.pci-0000_12_00.3.analog-stereo
 use-ui-max = true
 interval = 5
-format-volume-foreground = #beb3ff
-format-volume-padding = 1
+format-volume-background = #eaeaea
+format-volume-padding = 3
 format-volume = <ramp-volume> <label-volume>
-format-muted-padding = 1
-format-muted-foreground = #A19CCB
+format-muted-padding = 3
+format-muted-background = #18242e
+format-volume-foreground = #0b1014
 format-muted = <label-muted>
 label-volume = %percentage%
 label-muted =  --
@@ -102,16 +103,17 @@ ramp-volume-2 = 
 type = internal/xwindow
 label = %title:0:50:...%
 label-padding = 1
-format-foreground = #ffbee0
+format-background = #18242e
 
 [module/xkeyboard]
 type = internal/xkeyboard
 blacklist-0 = num lock
+blacklist-1 = caps lock
 
-format-foreground = #9578A2
+format-background = #18242e
 
 label-layout =   %layout%
-label-layout-padding = 1
+label-layout-padding = 3
 
 [module/i3]
 type = internal/i3
@@ -134,61 +136,46 @@ ws-icon-default=
 
 format-focused = <label-focused>
 label-focused = %name%
-label-focused-padding = 1
-label-focused-margin = 0
-label-focused-foreground = #fff7ff
+label-focused-padding = 3
+label-focused-background = #ffffff
+label-focused-foreground = #0b1014
 
 format-unfocused = <label-unfocused>
 label-unfocused = %name%
-label-unfocused-padding = 1
-label-unfocused-margin = 0
-label-unfocused-foreground = #6F85B6
+label-unfocused-padding = 3
+label-unfocused-background = #18242e
 
-label-mode-padding = 0
-label-mode-margin = 0
-label-mode-foreground = #fff7ff
+label-mode-background = #af3c3c
 label-mode = %mode%
+label-mode-padding = 3
 
 format-urgent = <label-urgent>
 label-urgent = %name%
-label-urgent-padding = 1
-label-urgent-margin = 0
-label-urgent-foreground = #A490B4
+label-urgent-padding = 3
+label-urgent-background = #af3c3c
 
 format-visible = <label-visible>
 label-visible = %name%
-label-visible-padding = 1
-label-visible-margin = 0
-label-visible-foreground = #ddd1dc
+label-visible-padding = 3
+label-visible-background = #eaeaea
 
 [module/wlan]
 type = internal/network
 interface = wlp2s0
 interval = 1.0
-label-connected =  %essid% %local_ip%
-format-connected-padding = 1
+label-connected =  %essid% 
+format-connected-padding = 3
 
 format-disconnected =  --
-format-connected-foreground = #7da5ff
-format-disconnected-foreground = #6F85B6
-format-disconnected-padding = 1
-
-[module/eth]
-type = internal/network
-interface = 
-interval = 1.0
-label-connected =  %local_ip%
-format-connected-padding = 1
-
-format-disconnected =  --
-format-connected-foreground = #ffbee0
-format-disconnected-foreground = #DBA6B5
-format-disconnected-padding = 1
+format-disconnected-background = #18242e
+format-connected-background = #eaeaea
+format-connected-foreground = #0b1014
+format-disconnected-padding = 3
 
 [module/date]
 type = internal/date
 interval = 1
-format-foreground = #ddd1dc
+format-foreground = #ffffff
 date =" %m/%d"
 date-alt = " %Y/%m/%d"
 
@@ -202,7 +189,7 @@ label-padding = 1
 screenchange-reload = true
 ;compositing-background = xor
 ;compositing-background = screen
-;compositing-foreground = source
+;compositing-backgou = source
 ;compositing-border = over
 
 [global/wm]

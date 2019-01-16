@@ -1,0 +1,28 @@
+{
+    "wallpaper": "theme_custom1.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#16181d",
+        "foreground": "#ffe6e6",
+        "cursor": "#ffe6e6"
+    },
+    "colors": {
+        "color0": "#16181d",
+        "color1": "#a04646",
+        "color2": "#178256",
+        "color3": "#b78e3b",
+        "color4": "#3e6ab4",
+        "color5": "#6c597c",
+        "color6": "#4e97a4",
+        "color7": "#ffd3d3",
+        "color8": "#272a33",
+        "color9": "#de4c4c",
+        "color10": "#13b371",
+        "color11": "#fdbd3c",
+        "color12": "#4085f9",
+        "color13": "#8d65ae",
+        "color14": "#55cfe4",
+        "color15": "#ffe6e6"
+    }
+}

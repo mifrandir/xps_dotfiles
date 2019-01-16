@@ -36,7 +36,6 @@ rename fish_prompt.fish2
 rename fish_prompt.fish.bak
 search 
 shell touch fish_prompt
-open_with 
 open_with vim
 delete
 rename fish_prompt.fish
@@ -47,4 +46,5 @@ search lukas
 rename lukasm-eliash.txt
 rename lukasm-marieke.txt
 rename lukasm-jannes.txt
+open_with 
 

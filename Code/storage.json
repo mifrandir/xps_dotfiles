@@ -2,10 +2,18 @@
     "telemetry.machineId": "7e7e30900b0dba6a5864663370066ccb2459feb84b8c8f83970d1a9d4e71981e",
     "openedPathsList": {
         "workspaces2": [
-            "file:///home/miltfra/projects/JASS",
-            "file:///home/miltfra/projects/bwinf37",
-            "file:///home/miltfra/projects/Blog",
+            "file:///home/miltfra/projects/python_ag",
             "file:///home/miltfra/documents",
+            "file:///home/miltfra/.notable/notes",
+            "file:///home/miltfra/go",
+            "file:///home/miltfra/projects/Blog",
+            "file:///home/miltfra/projects/OASS",
+            "file:///home/miltfra/projects/JASS",
+            "file:///home/miltfra/dotfiles/wpg/templates",
+            "file:///home/miltfra/dotfiles/fish/functions",
+            "file:///home/miltfra/dotfiles",
+            "file:///home/miltfra/documents/2018-12-12-ag",
+            "file:///home/miltfra/projects/bwinf37",
             "file:///home/miltfra/projects/advent_of_code",
             "file:///home/miltfra/documents/2018-12-17-abizeitung",
             "file:///home/miltfra/documents/2019-01-15-personal-statement",
@@ -13,7 +21,6 @@
             "file:///home/miltfra/projects/stormbreaker",
             "file:///home/miltfra/documents/2018-12-17-abizeitung/korrektur",
             "file:///home/miltfra/downloads/abitexte",
-            "file:///home/miltfra/projects/python_ag",
             "file:///home/vrelda/projects/Seminararbeit",
             "file:///home/miltfra/projects/experimental",
             "file:///home/vrelda/projects/bwinf37",
@@ -30,9 +37,13 @@
             "file:///home/vrelda/projects/bwinf37/bwinf37-runde1"
         ],
         "files2": [
+            "file:///home/miltfra/.notable/notes/Schreibplan.md",
+            "file:///home/miltfra/dotfiles/i3/startup.sh",
+            "file:///home/miltfra/dotfiles/wpg/templates/polybar.base",
+            "file:///home/miltfra/dotfiles/wpg/templates/i3.base",
+            "file:///home/miltfra/.notable/notes/Blog%2001%20-%20Projekt%20Site%20Builder.md",
             "file:///home/miltfra/documents/2018-12-17-abizeitung/agenda.tex",
             "file:///home/miltfra/documents/2018-12-17-abizeitung/abitexte/lucasg-jonasw.txt",
-            "file:///home/miltfra/dotfiles/wpg/templates/i3.base",
             "file:///home/miltfra/projects/stormbreaker/tsp.cpp",
             "file:///home/miltfra/usb/2018-12-12-ag/solution.py",
             "file:///home/miltfra/.vscode/extensions/juliettepretot.lucy-vscode-2.6.3/src/colors.mjs",
@@ -43,7 +54,6 @@
             "file:///home/miltfra/projects/python_ag/mergesort.py",
             "file:///home/miltfra/projects/Seminararbeit/Dokumente/Arbeit/2018-00%20Arbeit.tex",
             "file:///home/miltfra/documents/info-lk/20181015.txt",
-            "file:///home/miltfra/dotfiles/i3/startup.sh",
             "file:///home/miltfra/dotfiles/wpg/templates/bg.sh.base",
             "file:///home/miltfra/dotfiles/i3/bg.sh",
             "file:///home/miltfra/anaconda3/bin/conda-build",
@@ -62,18 +72,18 @@
         "lastActiveWindow": {
             "folderUri": {
                 "$mid": 1,
-                "fsPath": "/home/miltfra/projects/JASS",
-                "external": "file:///home/miltfra/projects/JASS",
-                "path": "/home/miltfra/projects/JASS",
+                "fsPath": "/home/miltfra/projects/python_ag",
+                "external": "file:///home/miltfra/projects/python_ag",
+                "path": "/home/miltfra/projects/python_ag",
                 "scheme": "file"
             },
-            "backupPath": "/home/miltfra/.config/Code/Backups/262926b3077b91f5a22fa5e0c332a2f0",
+            "backupPath": "/home/miltfra/.config/Code/Backups/204a4da051b7c0c14cb60423cd44de50",
             "uiState": {
                 "mode": 1,
                 "x": 0,
-                "y": 35,
+                "y": 30,
                 "width": 1920,
-                "height": 1045
+                "height": 1050
             }
         }
     },
@@ -832,8 +842,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1063,6 +1072,12 @@
             "editor.action.smartSelect.shrink": {
                 "label": "Shift+Alt+Left"
             },
+            "editor.action.copyLinesUpAction": {
+                "label": "Ctrl+Shift+Alt+Up"
+            },
+            "editor.action.copyLinesDownAction": {
+                "label": "Ctrl+Shift+Alt+Down"
+            },
             "editor.action.moveLinesUpAction": {
                 "label": "Alt+Up"
             },
@@ -1258,5 +1273,6 @@
                 "isNative": false
             }
         }
-    }
+    },
+    "pickerWorkingDir": "/home/miltfra/.notable"
 }
